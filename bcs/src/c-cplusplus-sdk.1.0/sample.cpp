@@ -22,12 +22,12 @@ int main()
     map<string, string> opt;
     response res;
     int ret;
-    // ak ,sk Çëµ½http://yun.baidu.comÉêÇë£¬²¢´´½¨bucket£¬ÉèÖÃ¶î¶È
-    char *ak = "FFFFFFFFFFFFFFFFFF";//ÕâÀï»»³ÉÄãµÄak
-    char *sk = "EEEEEEEEEEEEEEEEEE";//ÕâÀï»»³ÉÄãµÄsk
-    char bucket[130] = "your-bucket-name";//ÕâÀï»»³ÉÄãµÄBucketÃû×Ö
+    // ak ,sk è¯·åˆ°http://yun.baidu.comç”³è¯·ï¼Œå¹¶åˆ›å»ºbucketï¼Œè®¾ç½®é¢åº¦
+    char *ak = "reIi2eE41AGGn9zd0FxuTHHY";//è¿™é‡Œæ¢æˆä½ çš„ak
+    char *sk = "VaiNwPV9tvphCLRvlZ2RvVRkvPHrwaCf";//è¿™é‡Œæ¢æˆä½ çš„sk
+    char bucket[130] = "fuz-netdisk";//è¿™é‡Œæ¢æˆä½ çš„Bucketåå­—
     char *host = "bcs.duapp.com";
-    //´´½¨,µÚËÄ¸ö²ÎÊı¿ÉÒÔÖÆ¶¨logµÄ´æ·ÅÎ»ÖÃ£¬Ä¬ÈÏÎªlog/bcs.log,ÇëÏÈÈ·±£logÄ¿Â¼´æÔÚ
+    //åˆ›å»º,ç¬¬å››ä¸ªå‚æ•°å¯ä»¥åˆ¶å®šlogçš„å­˜æ”¾ä½ç½®ï¼Œé»˜è®¤ä¸ºlog/bcs.log,è¯·å…ˆç¡®ä¿logç›®å½•å­˜åœ¨
     bcs_sdk *bcs = new bcs_sdk(ak, sk, host);
 
     char *delete_bucket_name = "private-d";
@@ -41,7 +41,8 @@ int main()
     printf("respond body:[%s]\n", res.body.c_str());
     puts("");  
        
-    //put object ,ÉÏ´«ÎÄ¼ş£¬ÉèÖÃheader
+	/*
+	//put object ,ä¸Šä¼ æ–‡ä»¶ï¼Œè®¾ç½®header
     header.clear();
     header["x-bs-meta-map"] = "test";
   
@@ -54,7 +55,7 @@ int main()
     puts("");  
    
 
-    //put object ,ÉÏ´«ÎÄ¼ş£¬²»ÉèÖÃheader
+    //put object ,ä¸Šä¼ æ–‡ä»¶ï¼Œä¸è®¾ç½®header
     ret = bcs->put_object(bucket, "put_object_sample2", "upload.txt", res);
     puts("");
     printf("put object ret:[%d]\n", ret);
@@ -63,7 +64,7 @@ int main()
     printf("respond body:[%s]\n", res.body.c_str());
     puts("");  
 
-    //put object£¬²»¹ıÎÄ¼şµÄÄÚÈİ´æ´¢ÓÚÄÚ´æÖĞµÄ±äÁ¿£¬¼´ÏÂÃæµÄcontent
+    //put objectï¼Œä¸è¿‡æ–‡ä»¶çš„å†…å®¹å­˜å‚¨äºå†…å­˜ä¸­çš„å˜é‡ï¼Œå³ä¸‹é¢çš„content
     string content = "test";
     ret = bcs->put_object_from_memory(bucket, "put_object_from_memory.txt", content, res);
     puts("");
@@ -74,7 +75,7 @@ int main()
     puts("");  
     
     
-    //put object£¬²»¹ıÎÄ¼şµÄÄÚÈİ´æ´¢ÓÚÄÚ´æÖĞµÄ±äÁ¿£¬¼´ÏÂÃæµÄcontent
+    //put objectï¼Œä¸è¿‡æ–‡ä»¶çš„å†…å®¹å­˜å‚¨äºå†…å­˜ä¸­çš„å˜é‡ï¼Œå³ä¸‹é¢çš„content
     char content_with_binary[] = {'a', 'b', '\0', 'c', 'd', '\0'};
     content = string(content_with_binary, 6);
     ret = bcs->put_object_from_memory(bucket, "put_object_from_memory_3.txt", content, res);
@@ -85,7 +86,7 @@ int main()
     printf("respond body:[%s]\n", res.body.c_str());
     puts("");  
    
-    //get object ,½«ÏÂÔØºóµÄÎÄ¼şĞ´ÈëÄÚ´æÀï 
+    //get object ,å°†ä¸‹è½½åçš„æ–‡ä»¶å†™å…¥å†…å­˜é‡Œ 
     ret = bcs->get_object_to_memory(bucket, "put_object_from_memory.txt", res);
     puts("");
     printf("get object to memory ret:[%d]\n", ret);
@@ -102,7 +103,7 @@ int main()
     }
     puts(""); 
 
-    //get object, ÏÂÔØÎÄ¼ş 
+    //get object, ä¸‹è½½æ–‡ä»¶ 
     opt.clear();
     opt[BCS_FLAG_QUERYSTRING] = "response-cache-control=private";
     ret = bcs->get_object(bucket, "put_object_sample1", "download.txt", res, NULL, &opt);
@@ -116,7 +117,7 @@ int main()
     }
     puts("");  
 
-    //head object, »ñÈ¡objectµÄÊôĞÔ
+    //head object, è·å–objectçš„å±æ€§
     ret = bcs->head_object(bucket, "put_object_sample1", res);
     puts("");
     printf("head object ret:[%d]\n", ret);
@@ -124,7 +125,7 @@ int main()
     printf("status_code:[%d]\n", res.status_code);
     puts("");  
     
-    //copy object , ¿½±´object
+    //copy object , æ‹·è´object
     string src_url = "bs://";
     src_url.append(bucket);
     src_url.append("/put_object_sample1");
@@ -136,7 +137,7 @@ int main()
     printf("respond body:[%s]\n", res.body.c_str());
     puts("");  
 
-    //copy object , copy ×Ô¼º£¬ĞŞ¸ÄmetaÊôĞÔ
+    //copy object , copy è‡ªå·±ï¼Œä¿®æ”¹metaå±æ€§
     header.clear();
     header["x-bs-meta-debug"] = "copy test"; 
     src_url = "bs://";
@@ -150,7 +151,7 @@ int main()
     printf("respond body:[%s]\n", res.body.c_str());
     puts("");
 
-    //list bucket,ÏÔÊ¾ËùÓĞµÄBucket
+    //list bucket,æ˜¾ç¤ºæ‰€æœ‰çš„Bucket
      
     ret = bcs->list("", res);
     puts("");
@@ -166,7 +167,7 @@ int main()
         printf("list bucket failed, error msg:[%s]\n", res.body.c_str());
     }
 
-    //list object, ÏÔÊ¾Ö¸¶¨bucketµÄobject
+    //list object, æ˜¾ç¤ºæŒ‡å®šbucketçš„object
     opt.clear();
     opt["start"] = "3";
     opt["limit"] = "3";
@@ -184,7 +185,7 @@ int main()
        printf("list object failed, error msg:[%s]\n", res.body.c_str());
     }
 
-    //Ö§³Ö°æ±¾ÉÏ´«object
+    //æ”¯æŒç‰ˆæœ¬ä¸Šä¼ object
     opt.clear();
     opt["versioning"] = "1";
     ret = bcs->put_object(bucket, "copy_objcet", "upload.txt", res, NULL, &opt);
@@ -196,7 +197,7 @@ int main()
     puts(""); 
     
 
-    //list Ö¸¶¨bucket objectµÄÀúÊ·°æ±¾, ¼´½«¿ª·Å 
+    //list æŒ‡å®šbucket objectçš„å†å²ç‰ˆæœ¬, å³å°†å¼€æ”¾ 
     ret = bcs->list_version(bucket, "copy_object", res);
     puts("");
     printf("list version ret:[%d]\n", ret);
@@ -211,7 +212,7 @@ int main()
        printf("list version failed, error msg:[%s]\n", res.body.c_str());
     }
 
-    //delete object , É¾³ıobject
+    //delete object , åˆ é™¤object
     ret = bcs->delete_object(bucket, "copy_object", res);
     puts("");
     printf("delete object ret:[%d]\n", ret);
@@ -220,7 +221,7 @@ int main()
     printf("respond body:[%s]\n", res.body.c_str());
     puts("");  
     
-    //delete object , É¾³ıÒ»¸ö²»´æÔÚµÄobject
+    //delete object , åˆ é™¤ä¸€ä¸ªä¸å­˜åœ¨çš„object
     ret = bcs->delete_object(bucket, "object_not_exist", res);
     puts("");
     printf("delete object which not exist, ret:[%d]\n", ret);
@@ -229,7 +230,7 @@ int main()
     printf("respond body:[%s]\n", res.body.c_str());
     puts(""); 
 
-    //upload_dir ÅúÁ¿ÉÏ´«£¬ÉÏ´«Ö¸¶¨Ä¿Â¼ÏÂËùÓĞµÄobject 
+    //upload_dir æ‰¹é‡ä¸Šä¼ ï¼Œä¸Šä¼ æŒ‡å®šç›®å½•ä¸‹æ‰€æœ‰çš„object 
     vector<string> failed_file;
     ret = bcs->dir_upload(bucket, "prefix/", "lib", failed_file);
     puts("");
@@ -248,7 +249,7 @@ int main()
     }
     puts(""); 
     
-    //create bucket ,´´½¨bucket
+    //create bucket ,åˆ›å»ºbucket
     ret = bcs->create_bucket(delete_bucket_name, res);
     puts("");
     printf("create bucket ret:[%d]\n", ret);
@@ -256,7 +257,7 @@ int main()
     print_header(res.header);
     printf("respond body:[%s]\n", res.body.c_str());
     puts("");  
-    //delete bucket ,É¾³ıbucket
+    //delete bucket ,åˆ é™¤bucket
     ret = bcs->delete_bucket(delete_bucket_name, res);
     puts("");
     printf("delete bucket ret:[%d]\n", ret);
@@ -265,7 +266,7 @@ int main()
     printf("respond body:[%s]\n", res.body.c_str());
     puts("");  
   
-    //put superfile ,ÉÏ´«³¬´óÎÄ¼ş
+    //put superfile ,ä¸Šä¼ è¶…å¤§æ–‡ä»¶
     ret = bcs->put_superfile(bucket, "sp1", "sample.cpp", res);
     puts("");
     printf("put superfile ret:[%d]\n", ret);
@@ -274,7 +275,7 @@ int main()
     printf("respond body:[%s]\n", res.body.c_str());
     puts("");  
 
-    //merge,ºÏ²¢ÔÆ´æ´¢ÉÏµÄobject
+    //merge,åˆå¹¶äº‘å­˜å‚¨ä¸Šçš„object
     vector<string> object_url_list;
     object_url_list.push_back(src_url);
     ret = bcs->merge(bucket, "merge", object_url_list, res);
@@ -297,5 +298,6 @@ int main()
     puts("");  
     delete bcs2;
     fclose(fd);
+	*/
     return 0;
 }

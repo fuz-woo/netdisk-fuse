@@ -547,3 +547,599 @@ Server: BaiduBS
 [Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-Length], value:[0]
 [Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Date], value:[Mon, 05 Mar 2012 11:27:36 GMT]
 [Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Server], value:[BaiduBS]
+[Mon, 16 Dec 2013 10:41:50 GMT] [DEBUG]  [bcs_sdk.cpp:301][FUNC:bcs_sdk]init bcs_sdk, ak:[FFFFFFFFFFFFFFFFFF], sk:[EEEEEEEEEEEEEEEEEE], host:[bcs.duapp.com], log_file_path:[log/bcs.log]
+[Mon, 16 Dec 2013 10:41:50 GMT] [DEBUG]  [bcs_sdk.cpp:435][FUNC:generate_url]bucket:[your-bucket-name], object:[/put_object_sample2], method:[PUT] generate_url url:[http://bcs.duapp.com/your-bucket-name/put_object_sample2?sign=MBO:FFFFFFFFFFFFFFFFFF:P4l4rvzheVcEU4wau276jhnq8js%3D]
+[Mon, 16 Dec 2013 10:41:50 GMT] [DEBUG]  [bcs_sdk.cpp:461][FUNC:get_key_value_from_response_header]raw response header:[HTTP/1.1 100 Continue
+Date: Mon, 16 Dec 2013 10:42:14 GMT
+Server: BaiduBS
+
+HTTP/1.1 403 Forbidden
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, PUT, POST, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Headers: Origin, Content-Type, Accept, Content-Length
+Content-Type: application/json
+x-bs-request-id: MTAuMzYuMTAxLjE2OjgwODA6MTA5MDc2NjMxMjoxNi9EZWMvMjAxMyAxODo0MjoxNCA=
+Content-Length: 87
+Connection: close
+Date: Mon, 16 Dec 2013 10:42:14 GMT
+Server: BaiduBS
+
+]
+[Mon, 16 Dec 2013 10:41:50 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Date], value:[Mon, 16 Dec 2013 10:42:14 GMT]
+[Mon, 16 Dec 2013 10:41:50 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Server], value:[BaiduBS]
+[Mon, 16 Dec 2013 10:41:50 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Access-Control-Allow-Origin], value:[*]
+[Mon, 16 Dec 2013 10:41:50 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Access-Control-Allow-Methods], value:[GET, PUT, POST, DELETE, OPTIONS, HEAD]
+[Mon, 16 Dec 2013 10:41:50 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Access-Control-Allow-Headers], value:[Origin, Content-Type, Accept, Content-Length]
+[Mon, 16 Dec 2013 10:41:50 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-Type], value:[application/json]
+[Mon, 16 Dec 2013 10:41:50 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[x-bs-request-id], value:[MTAuMzYuMTAxLjE2OjgwODA6MTA5MDc2NjMxMjoxNi9EZWMvMjAxMyAxODo0MjoxNCA=]
+[Mon, 16 Dec 2013 10:41:50 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-Length], value:[87]
+[Mon, 16 Dec 2013 10:41:50 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Connection], value:[close]
+[Mon, 16 Dec 2013 10:41:50 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Date], value:[Mon, 16 Dec 2013 10:42:14 GMT]
+[Mon, 16 Dec 2013 10:41:50 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Server], value:[BaiduBS]
+[Mon, 16 Dec 2013 10:41:50 GMT] [DEBUG]  [bcs_sdk.cpp:435][FUNC:generate_url]bucket:[your-bucket-name], object:[/put_object_sample1], method:[PUT] generate_url url:[http://bcs.duapp.com/your-bucket-name/put_object_sample1?sign=MBO:FFFFFFFFFFFFFFFFFF:NQSiUkrz4VbJJ6XMv6exl17RIvc%3D]
+[Mon, 16 Dec 2013 10:41:50 GMT] [DEBUG]  [bcs_sdk.cpp:461][FUNC:get_key_value_from_response_header]raw response header:[HTTP/1.1 100 Continue
+Date: Mon, 16 Dec 2013 10:42:14 GMT
+Server: BaiduBS
+
+HTTP/1.1 403 Forbidden
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, PUT, POST, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Headers: Origin, Content-Type, Accept, Content-Length
+Content-Type: application/json
+x-bs-request-id: MTAuMzYuMTM0LjM2OjgwODA6MjQxNjM5NDQ0MDoxNi9EZWMvMjAxMyAxODo0MjoxNCA=
+Content-Length: 87
+Connection: close
+Date: Mon, 16 Dec 2013 10:42:14 GMT
+Server: BaiduBS
+
+]
+[Mon, 16 Dec 2013 10:41:50 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Date], value:[Mon, 16 Dec 2013 10:42:14 GMT]
+[Mon, 16 Dec 2013 10:41:50 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Server], value:[BaiduBS]
+[Mon, 16 Dec 2013 10:41:50 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Access-Control-Allow-Origin], value:[*]
+[Mon, 16 Dec 2013 10:41:50 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Access-Control-Allow-Methods], value:[GET, PUT, POST, DELETE, OPTIONS, HEAD]
+[Mon, 16 Dec 2013 10:41:50 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Access-Control-Allow-Headers], value:[Origin, Content-Type, Accept, Content-Length]
+[Mon, 16 Dec 2013 10:41:50 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-Type], value:[application/json]
+[Mon, 16 Dec 2013 10:41:50 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[x-bs-request-id], value:[MTAuMzYuMTM0LjM2OjgwODA6MjQxNjM5NDQ0MDoxNi9EZWMvMjAxMyAxODo0MjoxNCA=]
+[Mon, 16 Dec 2013 10:41:50 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-Length], value:[87]
+[Mon, 16 Dec 2013 10:41:50 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Connection], value:[close]
+[Mon, 16 Dec 2013 10:41:50 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Date], value:[Mon, 16 Dec 2013 10:42:14 GMT]
+[Mon, 16 Dec 2013 10:41:50 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Server], value:[BaiduBS]
+[Mon, 16 Dec 2013 10:41:50 GMT] [DEBUG]  [bcs_sdk.cpp:435][FUNC:generate_url]bucket:[your-bucket-name], object:[/put_object_sample2], method:[PUT] generate_url url:[http://bcs.duapp.com/your-bucket-name/put_object_sample2?sign=MBO:FFFFFFFFFFFFFFFFFF:P4l4rvzheVcEU4wau276jhnq8js%3D]
+[Mon, 16 Dec 2013 10:41:51 GMT] [DEBUG]  [bcs_sdk.cpp:461][FUNC:get_key_value_from_response_header]raw response header:[HTTP/1.1 100 Continue
+Date: Mon, 16 Dec 2013 10:42:15 GMT
+Server: BaiduBS
+
+HTTP/1.1 403 Forbidden
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, PUT, POST, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Headers: Origin, Content-Type, Accept, Content-Length
+Content-Type: application/json
+x-bs-request-id: MTAuMzguMTQyLjYzOjgwODA6NDI3ODcxNDQ2MzoxNi9EZWMvMjAxMyAxODo0MjoxNSA=
+Content-Length: 87
+Connection: close
+Date: Mon, 16 Dec 2013 10:42:15 GMT
+Server: BaiduBS
+
+]
+[Mon, 16 Dec 2013 10:41:51 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Date], value:[Mon, 16 Dec 2013 10:42:15 GMT]
+[Mon, 16 Dec 2013 10:41:51 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Server], value:[BaiduBS]
+[Mon, 16 Dec 2013 10:41:51 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Access-Control-Allow-Origin], value:[*]
+[Mon, 16 Dec 2013 10:41:51 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Access-Control-Allow-Methods], value:[GET, PUT, POST, DELETE, OPTIONS, HEAD]
+[Mon, 16 Dec 2013 10:41:51 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Access-Control-Allow-Headers], value:[Origin, Content-Type, Accept, Content-Length]
+[Mon, 16 Dec 2013 10:41:51 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-Type], value:[application/json]
+[Mon, 16 Dec 2013 10:41:51 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[x-bs-request-id], value:[MTAuMzguMTQyLjYzOjgwODA6NDI3ODcxNDQ2MzoxNi9EZWMvMjAxMyAxODo0MjoxNSA=]
+[Mon, 16 Dec 2013 10:41:51 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-Length], value:[87]
+[Mon, 16 Dec 2013 10:41:51 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Connection], value:[close]
+[Mon, 16 Dec 2013 10:41:51 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Date], value:[Mon, 16 Dec 2013 10:42:15 GMT]
+[Mon, 16 Dec 2013 10:41:51 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Server], value:[BaiduBS]
+[Mon, 16 Dec 2013 10:41:51 GMT] [DEBUG]  [bcs_sdk.cpp:435][FUNC:generate_url]bucket:[your-bucket-name], object:[/put_object_from_memory.txt], method:[PUT] generate_url url:[http://bcs.duapp.com/your-bucket-name/put_object_from_memory.txt?sign=MBO:FFFFFFFFFFFFFFFFFF:QOeHmzxgFi1b5f4%2BcdXCLnLFHvM%3D]
+[Mon, 16 Dec 2013 10:41:51 GMT] [DEBUG]  [bcs_sdk.cpp:461][FUNC:get_key_value_from_response_header]raw response header:[HTTP/1.1 100 Continue
+Date: Mon, 16 Dec 2013 10:42:15 GMT
+Server: BaiduBS
+
+HTTP/1.1 403 Forbidden
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, PUT, POST, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Headers: Origin, Content-Type, Accept, Content-Length
+Content-Type: application/json
+x-bs-request-id: MTAuMzYuMTM0LjM2OjgwODA6MjQzMzE4MzU1MjoxNi9EZWMvMjAxMyAxODo0MjoxNSA=
+Content-Length: 87
+Connection: close
+Date: Mon, 16 Dec 2013 10:42:15 GMT
+Server: BaiduBS
+
+]
+[Mon, 16 Dec 2013 10:41:51 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Date], value:[Mon, 16 Dec 2013 10:42:15 GMT]
+[Mon, 16 Dec 2013 10:41:51 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Server], value:[BaiduBS]
+[Mon, 16 Dec 2013 10:41:51 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Access-Control-Allow-Origin], value:[*]
+[Mon, 16 Dec 2013 10:41:51 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Access-Control-Allow-Methods], value:[GET, PUT, POST, DELETE, OPTIONS, HEAD]
+[Mon, 16 Dec 2013 10:41:51 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Access-Control-Allow-Headers], value:[Origin, Content-Type, Accept, Content-Length]
+[Mon, 16 Dec 2013 10:41:51 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-Type], value:[application/json]
+[Mon, 16 Dec 2013 10:41:51 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[x-bs-request-id], value:[MTAuMzYuMTM0LjM2OjgwODA6MjQzMzE4MzU1MjoxNi9EZWMvMjAxMyAxODo0MjoxNSA=]
+[Mon, 16 Dec 2013 10:41:51 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-Length], value:[87]
+[Mon, 16 Dec 2013 10:41:51 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Connection], value:[close]
+[Mon, 16 Dec 2013 10:41:51 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Date], value:[Mon, 16 Dec 2013 10:42:15 GMT]
+[Mon, 16 Dec 2013 10:41:51 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Server], value:[BaiduBS]
+[Mon, 16 Dec 2013 10:41:51 GMT] [DEBUG]  [bcs_sdk.cpp:435][FUNC:generate_url]bucket:[your-bucket-name], object:[/put_object_from_memory_3.txt], method:[PUT] generate_url url:[http://bcs.duapp.com/your-bucket-name/put_object_from_memory_3.txt?sign=MBO:FFFFFFFFFFFFFFFFFF:rpB%2FOGdRlfPbDEQcmxvXKvd%2BCSY%3D]
+[Mon, 16 Dec 2013 10:41:52 GMT] [DEBUG]  [bcs_sdk.cpp:461][FUNC:get_key_value_from_response_header]raw response header:[HTTP/1.1 100 Continue
+Date: Mon, 16 Dec 2013 10:42:15 GMT
+Server: BaiduBS
+
+HTTP/1.1 403 Forbidden
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, PUT, POST, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Headers: Origin, Content-Type, Accept, Content-Length
+Content-Type: application/json
+x-bs-request-id: MTAuMzguMTQyLjYzOjgwODA6NDI3OTA4MDczMDoxNi9EZWMvMjAxMyAxODo0MjoxNSA=
+Content-Length: 87
+Connection: close
+Date: Mon, 16 Dec 2013 10:42:15 GMT
+Server: BaiduBS
+
+]
+[Mon, 16 Dec 2013 10:41:52 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Date], value:[Mon, 16 Dec 2013 10:42:15 GMT]
+[Mon, 16 Dec 2013 10:41:52 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Server], value:[BaiduBS]
+[Mon, 16 Dec 2013 10:41:52 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Access-Control-Allow-Origin], value:[*]
+[Mon, 16 Dec 2013 10:41:52 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Access-Control-Allow-Methods], value:[GET, PUT, POST, DELETE, OPTIONS, HEAD]
+[Mon, 16 Dec 2013 10:41:52 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Access-Control-Allow-Headers], value:[Origin, Content-Type, Accept, Content-Length]
+[Mon, 16 Dec 2013 10:41:52 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-Type], value:[application/json]
+[Mon, 16 Dec 2013 10:41:52 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[x-bs-request-id], value:[MTAuMzguMTQyLjYzOjgwODA6NDI3OTA4MDczMDoxNi9EZWMvMjAxMyAxODo0MjoxNSA=]
+[Mon, 16 Dec 2013 10:41:52 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-Length], value:[87]
+[Mon, 16 Dec 2013 10:41:52 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Connection], value:[close]
+[Mon, 16 Dec 2013 10:41:52 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Date], value:[Mon, 16 Dec 2013 10:42:15 GMT]
+[Mon, 16 Dec 2013 10:41:52 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Server], value:[BaiduBS]
+[Mon, 16 Dec 2013 10:41:52 GMT] [DEBUG]  [bcs_sdk.cpp:435][FUNC:generate_url]bucket:[your-bucket-name], object:[/put_object_from_memory.txt], method:[GET] generate_url url:[http://bcs.duapp.com/your-bucket-name/put_object_from_memory.txt?sign=MBO:FFFFFFFFFFFFFFFFFF:JSXWZDjR5ToOWlzJhOmiu6W6hpQ%3D]
+[Mon, 16 Dec 2013 10:41:52 GMT] [DEBUG]  [bcs_sdk.cpp:461][FUNC:get_key_value_from_response_header]raw response header:[HTTP/1.1 403 Forbidden
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, PUT, POST, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Headers: Origin, Content-Type, Accept, Content-Length
+Content-Type: application/json
+x-bs-request-id: MTAuMzYuMTM1LjM2OjgwODA6MjQ4MTg2ODA4OToxNi9EZWMvMjAxMyAxODo0MjoxNiA=
+Content-Length: 87
+Connection: close
+Date: Mon, 16 Dec 2013 10:42:16 GMT
+Server: BaiduBS
+
+]
+[Mon, 16 Dec 2013 10:41:52 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Access-Control-Allow-Origin], value:[*]
+[Mon, 16 Dec 2013 10:41:52 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Access-Control-Allow-Methods], value:[GET, PUT, POST, DELETE, OPTIONS, HEAD]
+[Mon, 16 Dec 2013 10:41:52 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Access-Control-Allow-Headers], value:[Origin, Content-Type, Accept, Content-Length]
+[Mon, 16 Dec 2013 10:41:52 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-Type], value:[application/json]
+[Mon, 16 Dec 2013 10:41:52 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[x-bs-request-id], value:[MTAuMzYuMTM1LjM2OjgwODA6MjQ4MTg2ODA4OToxNi9EZWMvMjAxMyAxODo0MjoxNiA=]
+[Mon, 16 Dec 2013 10:41:52 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-Length], value:[87]
+[Mon, 16 Dec 2013 10:41:52 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Connection], value:[close]
+[Mon, 16 Dec 2013 10:41:52 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Date], value:[Mon, 16 Dec 2013 10:42:16 GMT]
+[Mon, 16 Dec 2013 10:41:52 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Server], value:[BaiduBS]
+[Mon, 16 Dec 2013 10:41:52 GMT] [DEBUG]  [bcs_sdk.cpp:435][FUNC:generate_url]bucket:[your-bucket-name], object:[/put_object_sample1], method:[GET] generate_url url:[http://bcs.duapp.com/your-bucket-name/put_object_sample1?sign=MBO:FFFFFFFFFFFFFFFFFF:oLQksL9uHJ%2FWLTb1ne2IwjEWayg%3D&response-cache-control=private]
+[Mon, 16 Dec 2013 10:41:52 GMT] [DEBUG]  [bcs_sdk.cpp:461][FUNC:get_key_value_from_response_header]raw response header:[HTTP/1.1 403 Forbidden
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, PUT, POST, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Headers: Origin, Content-Type, Accept, Content-Length
+Content-Type: application/json
+x-bs-request-id: MTAuMzYuMTM1LjM2OjgwODA6MjQ2NjkxNzU5MDoxNi9EZWMvMjAxMyAxODo0MjoxNiA=
+Content-Length: 87
+Connection: close
+Date: Mon, 16 Dec 2013 10:42:16 GMT
+Server: BaiduBS
+
+]
+[Mon, 16 Dec 2013 10:41:52 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Access-Control-Allow-Origin], value:[*]
+[Mon, 16 Dec 2013 10:41:52 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Access-Control-Allow-Methods], value:[GET, PUT, POST, DELETE, OPTIONS, HEAD]
+[Mon, 16 Dec 2013 10:41:52 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Access-Control-Allow-Headers], value:[Origin, Content-Type, Accept, Content-Length]
+[Mon, 16 Dec 2013 10:41:52 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-Type], value:[application/json]
+[Mon, 16 Dec 2013 10:41:52 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[x-bs-request-id], value:[MTAuMzYuMTM1LjM2OjgwODA6MjQ2NjkxNzU5MDoxNi9EZWMvMjAxMyAxODo0MjoxNiA=]
+[Mon, 16 Dec 2013 10:41:52 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-Length], value:[87]
+[Mon, 16 Dec 2013 10:41:52 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Connection], value:[close]
+[Mon, 16 Dec 2013 10:41:52 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Date], value:[Mon, 16 Dec 2013 10:42:16 GMT]
+[Mon, 16 Dec 2013 10:41:52 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Server], value:[BaiduBS]
+[Mon, 16 Dec 2013 10:41:52 GMT] [ERROR]  [bcs_sdk.cpp:1189][FUNC:get_object]{"Error":{"code":"11","Message":"ACL:Key-pair can not be found.","LogId":"2466917590"}}
+[Mon, 16 Dec 2013 10:41:52 GMT] [DEBUG]  [bcs_sdk.cpp:435][FUNC:generate_url]bucket:[your-bucket-name], object:[/put_object_sample1], method:[HEAD] generate_url url:[http://bcs.duapp.com/your-bucket-name/put_object_sample1?sign=MBO:FFFFFFFFFFFFFFFFFF:pPZtNX%2F2eINUUyMm0R2vvY7UC68%3D]
+[Mon, 16 Dec 2013 10:41:53 GMT] [DEBUG]  [bcs_sdk.cpp:461][FUNC:get_key_value_from_response_header]raw response header:[HTTP/1.1 403 Forbidden
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, PUT, POST, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Headers: Origin, Content-Type, Accept, Content-Length
+Content-Type: application/json
+x-bs-request-id: MTAuMzYuMTAwLjE2OjgwODA6MTA5MTAwNzU0NToxNi9EZWMvMjAxMyAxODo0MjoxNiA=
+Content-Length: 87
+Connection: close
+Date: Mon, 16 Dec 2013 10:42:16 GMT
+Server: BaiduBS
+
+]
+[Mon, 16 Dec 2013 10:41:53 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Access-Control-Allow-Origin], value:[*]
+[Mon, 16 Dec 2013 10:41:53 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Access-Control-Allow-Methods], value:[GET, PUT, POST, DELETE, OPTIONS, HEAD]
+[Mon, 16 Dec 2013 10:41:53 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Access-Control-Allow-Headers], value:[Origin, Content-Type, Accept, Content-Length]
+[Mon, 16 Dec 2013 10:41:53 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-Type], value:[application/json]
+[Mon, 16 Dec 2013 10:41:53 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[x-bs-request-id], value:[MTAuMzYuMTAwLjE2OjgwODA6MTA5MTAwNzU0NToxNi9EZWMvMjAxMyAxODo0MjoxNiA=]
+[Mon, 16 Dec 2013 10:41:53 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-Length], value:[87]
+[Mon, 16 Dec 2013 10:41:53 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Connection], value:[close]
+[Mon, 16 Dec 2013 10:41:53 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Date], value:[Mon, 16 Dec 2013 10:42:16 GMT]
+[Mon, 16 Dec 2013 10:41:53 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Server], value:[BaiduBS]
+[Mon, 16 Dec 2013 10:41:53 GMT] [DEBUG]  [bcs_sdk.cpp:435][FUNC:generate_url]bucket:[your-bucket-name], object:[/copy_object], method:[PUT] generate_url url:[http://bcs.duapp.com/your-bucket-name/copy_object?sign=MBO:FFFFFFFFFFFFFFFFFF:vmhmqhKIqQ1ojoclzj3I%2FoFZJNg%3D]
+[Mon, 16 Dec 2013 10:41:53 GMT] [DEBUG]  [bcs_sdk.cpp:461][FUNC:get_key_value_from_response_header]raw response header:[HTTP/1.1 403 Forbidden
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, PUT, POST, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Headers: Origin, Content-Type, Accept, Content-Length
+Content-Type: application/json
+x-bs-request-id: MTAuMzYuMTAxLjE2OjgwODA6MTA5MTIwNzMyNDoxNi9EZWMvMjAxMyAxODo0MjoxNyA=
+Content-Length: 87
+Connection: close
+Date: Mon, 16 Dec 2013 10:42:17 GMT
+Server: BaiduBS
+
+]
+[Mon, 16 Dec 2013 10:41:53 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Access-Control-Allow-Origin], value:[*]
+[Mon, 16 Dec 2013 10:41:53 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Access-Control-Allow-Methods], value:[GET, PUT, POST, DELETE, OPTIONS, HEAD]
+[Mon, 16 Dec 2013 10:41:53 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Access-Control-Allow-Headers], value:[Origin, Content-Type, Accept, Content-Length]
+[Mon, 16 Dec 2013 10:41:53 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-Type], value:[application/json]
+[Mon, 16 Dec 2013 10:41:53 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[x-bs-request-id], value:[MTAuMzYuMTAxLjE2OjgwODA6MTA5MTIwNzMyNDoxNi9EZWMvMjAxMyAxODo0MjoxNyA=]
+[Mon, 16 Dec 2013 10:41:53 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-Length], value:[87]
+[Mon, 16 Dec 2013 10:41:53 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Connection], value:[close]
+[Mon, 16 Dec 2013 10:41:53 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Date], value:[Mon, 16 Dec 2013 10:42:17 GMT]
+[Mon, 16 Dec 2013 10:41:53 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Server], value:[BaiduBS]
+[Mon, 16 Dec 2013 10:41:53 GMT] [DEBUG]  [bcs_sdk.cpp:435][FUNC:generate_url]bucket:[your-bucket-name], object:[/put_object_sample1], method:[PUT] generate_url url:[http://bcs.duapp.com/your-bucket-name/put_object_sample1?sign=MBO:FFFFFFFFFFFFFFFFFF:NQSiUkrz4VbJJ6XMv6exl17RIvc%3D]
+[Mon, 16 Dec 2013 10:41:54 GMT] [DEBUG]  [bcs_sdk.cpp:461][FUNC:get_key_value_from_response_header]raw response header:[HTTP/1.1 403 Forbidden
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, PUT, POST, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Headers: Origin, Content-Type, Accept, Content-Length
+Content-Type: application/json
+x-bs-request-id: MTAuMzYuMTAwLjU2OjgwODA6MzgwODQzMzU5NjoxNi9EZWMvMjAxMyAxODo0MjoxOCA=
+Content-Length: 87
+Connection: close
+Date: Mon, 16 Dec 2013 10:42:18 GMT
+Server: BaiduBS
+
+]
+[Mon, 16 Dec 2013 10:41:54 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Access-Control-Allow-Origin], value:[*]
+[Mon, 16 Dec 2013 10:41:54 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Access-Control-Allow-Methods], value:[GET, PUT, POST, DELETE, OPTIONS, HEAD]
+[Mon, 16 Dec 2013 10:41:54 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Access-Control-Allow-Headers], value:[Origin, Content-Type, Accept, Content-Length]
+[Mon, 16 Dec 2013 10:41:54 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-Type], value:[application/json]
+[Mon, 16 Dec 2013 10:41:54 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[x-bs-request-id], value:[MTAuMzYuMTAwLjU2OjgwODA6MzgwODQzMzU5NjoxNi9EZWMvMjAxMyAxODo0MjoxOCA=]
+[Mon, 16 Dec 2013 10:41:54 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-Length], value:[87]
+[Mon, 16 Dec 2013 10:41:54 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Connection], value:[close]
+[Mon, 16 Dec 2013 10:41:54 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Date], value:[Mon, 16 Dec 2013 10:42:18 GMT]
+[Mon, 16 Dec 2013 10:41:54 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Server], value:[BaiduBS]
+[Mon, 16 Dec 2013 10:41:54 GMT] [DEBUG]  [bcs_sdk.cpp:435][FUNC:generate_url]bucket:[], object:[/], method:[GET] generate_url url:[http://bcs.duapp.com//?sign=MBO:FFFFFFFFFFFFFFFFFF:vx%2FZ31V58hbbjvREUzmYR6Asqks%3D]
+[Mon, 16 Dec 2013 10:41:54 GMT] [DEBUG]  [bcs_sdk.cpp:461][FUNC:get_key_value_from_response_header]raw response header:[HTTP/1.1 403 Forbidden
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, PUT, POST, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Headers: Origin, Content-Type, Accept, Content-Length
+x-bs-request-id: bTEtYmFlLW9mZnVpMC00Lm0xLmJhaWR1LmNvbTo4MDo3Mjk1NDM1MTU1Ng==
+Content-Type: application/json
+Date: Mon, 16 Dec 2013 10:42:18 GMT
+Server: BWS/1.0
+x-bs-client-ip: MTc1LjguMTI0LjE5Mg==
+Transfer-Encoding: chunked
+
+]
+[Mon, 16 Dec 2013 10:41:54 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Access-Control-Allow-Origin], value:[*]
+[Mon, 16 Dec 2013 10:41:54 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Access-Control-Allow-Methods], value:[GET, PUT, POST, DELETE, OPTIONS, HEAD]
+[Mon, 16 Dec 2013 10:41:54 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Access-Control-Allow-Headers], value:[Origin, Content-Type, Accept, Content-Length]
+[Mon, 16 Dec 2013 10:41:54 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[x-bs-request-id], value:[bTEtYmFlLW9mZnVpMC00Lm0xLmJhaWR1LmNvbTo4MDo3Mjk1NDM1MTU1Ng==]
+[Mon, 16 Dec 2013 10:41:54 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-Type], value:[application/json]
+[Mon, 16 Dec 2013 10:41:54 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Date], value:[Mon, 16 Dec 2013 10:42:18 GMT]
+[Mon, 16 Dec 2013 10:41:54 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Server], value:[BWS/1.0]
+[Mon, 16 Dec 2013 10:41:54 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[x-bs-client-ip], value:[MTc1LjguMTI0LjE5Mg==]
+[Mon, 16 Dec 2013 10:41:54 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Transfer-Encoding], value:[chunked]
+[Mon, 16 Dec 2013 10:41:54 GMT] [DEBUG]  [bcs_sdk.cpp:435][FUNC:generate_url]bucket:[your-bucket-name], object:[/], method:[GET] generate_url url:[http://bcs.duapp.com/your-bucket-name/?sign=MBO:FFFFFFFFFFFFFFFFFF:vlHorJT4usGZAxsuuhV4lDsyPwE%3D&start=3&limit=3]
+[Mon, 16 Dec 2013 10:41:54 GMT] [DEBUG]  [bcs_sdk.cpp:461][FUNC:get_key_value_from_response_header]raw response header:[HTTP/1.1 403 Forbidden
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, PUT, POST, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Headers: Origin, Content-Type, Accept, Content-Length
+x-bs-request-id: dGMtYmFlLW9mZnVpMC02LnRjLmJhaWR1LmNvbTo4MDo3NjUyMTU3MTIxOA==
+Content-Type: application/json
+Date: Mon, 16 Dec 2013 10:42:18 GMT
+Server: BWS/1.0
+x-bs-client-ip: MTc1LjguMTI0LjE5Mg==
+Transfer-Encoding: chunked
+
+]
+[Mon, 16 Dec 2013 10:41:54 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Access-Control-Allow-Origin], value:[*]
+[Mon, 16 Dec 2013 10:41:54 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Access-Control-Allow-Methods], value:[GET, PUT, POST, DELETE, OPTIONS, HEAD]
+[Mon, 16 Dec 2013 10:41:54 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Access-Control-Allow-Headers], value:[Origin, Content-Type, Accept, Content-Length]
+[Mon, 16 Dec 2013 10:41:54 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[x-bs-request-id], value:[dGMtYmFlLW9mZnVpMC02LnRjLmJhaWR1LmNvbTo4MDo3NjUyMTU3MTIxOA==]
+[Mon, 16 Dec 2013 10:41:54 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-Type], value:[application/json]
+[Mon, 16 Dec 2013 10:41:54 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Date], value:[Mon, 16 Dec 2013 10:42:18 GMT]
+[Mon, 16 Dec 2013 10:41:54 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Server], value:[BWS/1.0]
+[Mon, 16 Dec 2013 10:41:54 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[x-bs-client-ip], value:[MTc1LjguMTI0LjE5Mg==]
+[Mon, 16 Dec 2013 10:41:54 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Transfer-Encoding], value:[chunked]
+[Mon, 16 Dec 2013 10:41:54 GMT] [DEBUG]  [bcs_sdk.cpp:435][FUNC:generate_url]bucket:[your-bucket-name], object:[/copy_objcet], method:[PUT] generate_url url:[http://bcs.duapp.com/your-bucket-name/copy_objcet?sign=MBO:FFFFFFFFFFFFFFFFFF:d5xQlDnxXY4kSPfcyHyYH2DeSjQ%3D&x-bs-versioning=1]
+[Mon, 16 Dec 2013 10:41:58 GMT] [DEBUG]  [bcs_sdk.cpp:461][FUNC:get_key_value_from_response_header]raw response header:[HTTP/1.1 100 Continue
+Date: Mon, 16 Dec 2013 10:42:19 GMT
+Server: BaiduBS
+
+HTTP/1.1 403 Forbidden
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, PUT, POST, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Headers: Origin, Content-Type, Accept, Content-Length
+Content-Type: application/json
+x-bs-request-id: MTAuMzYuMTAwLjE2OjgwODA6MTA3NTM4MjAyMjoxNi9EZWMvMjAxMyAxODo0MjoyMiA=
+Content-Length: 87
+Connection: close
+Date: Mon, 16 Dec 2013 10:42:22 GMT
+Server: BaiduBS
+
+]
+[Mon, 16 Dec 2013 10:41:58 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Date], value:[Mon, 16 Dec 2013 10:42:19 GMT]
+[Mon, 16 Dec 2013 10:41:58 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Server], value:[BaiduBS]
+[Mon, 16 Dec 2013 10:41:58 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Access-Control-Allow-Origin], value:[*]
+[Mon, 16 Dec 2013 10:41:58 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Access-Control-Allow-Methods], value:[GET, PUT, POST, DELETE, OPTIONS, HEAD]
+[Mon, 16 Dec 2013 10:41:58 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Access-Control-Allow-Headers], value:[Origin, Content-Type, Accept, Content-Length]
+[Mon, 16 Dec 2013 10:41:58 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-Type], value:[application/json]
+[Mon, 16 Dec 2013 10:41:58 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[x-bs-request-id], value:[MTAuMzYuMTAwLjE2OjgwODA6MTA3NTM4MjAyMjoxNi9EZWMvMjAxMyAxODo0MjoyMiA=]
+[Mon, 16 Dec 2013 10:41:58 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-Length], value:[87]
+[Mon, 16 Dec 2013 10:41:58 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Connection], value:[close]
+[Mon, 16 Dec 2013 10:41:58 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Date], value:[Mon, 16 Dec 2013 10:42:22 GMT]
+[Mon, 16 Dec 2013 10:41:58 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Server], value:[BaiduBS]
+[Mon, 16 Dec 2013 10:41:58 GMT] [DEBUG]  [bcs_sdk.cpp:435][FUNC:generate_url]bucket:[your-bucket-name], object:[/copy_object], method:[GET] generate_url url:[http://bcs.duapp.com/your-bucket-name/copy_object?sign=MBO:FFFFFFFFFFFFFFFFFF:j7sY%2F5UAoYY2ku1MJ521TIkG7IQ%3D&x-bs-versions=1]
+[Mon, 16 Dec 2013 10:41:58 GMT] [DEBUG]  [bcs_sdk.cpp:461][FUNC:get_key_value_from_response_header]raw response header:[HTTP/1.1 403 Forbidden
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, PUT, POST, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Headers: Origin, Content-Type, Accept, Content-Length
+x-bs-request-id: eWYtYmFlLW9mZnVpMC0xMS55ZjAxLmJhaWR1LmNvbTo4MDoxNjE1MjQ5NzA0NQ==
+Content-Type: application/json
+Date: Mon, 16 Dec 2013 10:42:22 GMT
+Server: BWS/1.0
+x-bs-client-ip: MTc1LjguMTI0LjE5Mg==
+Transfer-Encoding: chunked
+
+]
+[Mon, 16 Dec 2013 10:41:58 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Access-Control-Allow-Origin], value:[*]
+[Mon, 16 Dec 2013 10:41:58 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Access-Control-Allow-Methods], value:[GET, PUT, POST, DELETE, OPTIONS, HEAD]
+[Mon, 16 Dec 2013 10:41:58 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Access-Control-Allow-Headers], value:[Origin, Content-Type, Accept, Content-Length]
+[Mon, 16 Dec 2013 10:41:58 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[x-bs-request-id], value:[eWYtYmFlLW9mZnVpMC0xMS55ZjAxLmJhaWR1LmNvbTo4MDoxNjE1MjQ5NzA0NQ==]
+[Mon, 16 Dec 2013 10:41:58 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-Type], value:[application/json]
+[Mon, 16 Dec 2013 10:41:58 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Date], value:[Mon, 16 Dec 2013 10:42:22 GMT]
+[Mon, 16 Dec 2013 10:41:58 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Server], value:[BWS/1.0]
+[Mon, 16 Dec 2013 10:41:58 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[x-bs-client-ip], value:[MTc1LjguMTI0LjE5Mg==]
+[Mon, 16 Dec 2013 10:41:58 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Transfer-Encoding], value:[chunked]
+[Mon, 16 Dec 2013 10:41:58 GMT] [DEBUG]  [bcs_sdk.cpp:435][FUNC:generate_url]bucket:[your-bucket-name], object:[/copy_object], method:[DELETE] generate_url url:[http://bcs.duapp.com/your-bucket-name/copy_object?sign=MBO:FFFFFFFFFFFFFFFFFF:L1IlvVjDEAUUVNm%2FoCgVDC2kbgI%3D]
+[Mon, 16 Dec 2013 10:41:58 GMT] [DEBUG]  [bcs_sdk.cpp:461][FUNC:get_key_value_from_response_header]raw response header:[HTTP/1.1 403 Forbidden
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, PUT, POST, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Headers: Origin, Content-Type, Accept, Content-Length
+Content-Type: application/json
+x-bs-request-id: MTAuMzYuMTA4LjE2OjgwODA6MTA3NDMyNjMzMzoxNi9EZWMvMjAxMyAxODo0MjoyMiA=
+Content-Length: 87
+Connection: close
+Date: Mon, 16 Dec 2013 10:42:22 GMT
+Server: BaiduBS
+
+]
+[Mon, 16 Dec 2013 10:41:58 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Access-Control-Allow-Origin], value:[*]
+[Mon, 16 Dec 2013 10:41:58 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Access-Control-Allow-Methods], value:[GET, PUT, POST, DELETE, OPTIONS, HEAD]
+[Mon, 16 Dec 2013 10:41:58 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Access-Control-Allow-Headers], value:[Origin, Content-Type, Accept, Content-Length]
+[Mon, 16 Dec 2013 10:41:58 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-Type], value:[application/json]
+[Mon, 16 Dec 2013 10:41:58 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[x-bs-request-id], value:[MTAuMzYuMTA4LjE2OjgwODA6MTA3NDMyNjMzMzoxNi9EZWMvMjAxMyAxODo0MjoyMiA=]
+[Mon, 16 Dec 2013 10:41:58 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-Length], value:[87]
+[Mon, 16 Dec 2013 10:41:58 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Connection], value:[close]
+[Mon, 16 Dec 2013 10:41:58 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Date], value:[Mon, 16 Dec 2013 10:42:22 GMT]
+[Mon, 16 Dec 2013 10:41:58 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Server], value:[BaiduBS]
+[Mon, 16 Dec 2013 10:41:58 GMT] [DEBUG]  [bcs_sdk.cpp:435][FUNC:generate_url]bucket:[your-bucket-name], object:[/object_not_exist], method:[DELETE] generate_url url:[http://bcs.duapp.com/your-bucket-name/object_not_exist?sign=MBO:FFFFFFFFFFFFFFFFFF:qSuGrPS%2Bc44sxHAllzskKhx22bc%3D]
+[Mon, 16 Dec 2013 10:41:58 GMT] [DEBUG]  [bcs_sdk.cpp:461][FUNC:get_key_value_from_response_header]raw response header:[HTTP/1.1 403 Forbidden
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, PUT, POST, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Headers: Origin, Content-Type, Accept, Content-Length
+Content-Type: application/json
+x-bs-request-id: MTAuMzYuMTA4LjE2OjgwODA6MTEyNDcyMzgzNzoxNi9EZWMvMjAxMyAxODo0MjoyMiA=
+Content-Length: 87
+Connection: close
+Date: Mon, 16 Dec 2013 10:42:22 GMT
+Server: BaiduBS
+
+]
+[Mon, 16 Dec 2013 10:41:58 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Access-Control-Allow-Origin], value:[*]
+[Mon, 16 Dec 2013 10:41:58 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Access-Control-Allow-Methods], value:[GET, PUT, POST, DELETE, OPTIONS, HEAD]
+[Mon, 16 Dec 2013 10:41:58 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Access-Control-Allow-Headers], value:[Origin, Content-Type, Accept, Content-Length]
+[Mon, 16 Dec 2013 10:41:58 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-Type], value:[application/json]
+[Mon, 16 Dec 2013 10:41:58 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[x-bs-request-id], value:[MTAuMzYuMTA4LjE2OjgwODA6MTEyNDcyMzgzNzoxNi9EZWMvMjAxMyAxODo0MjoyMiA=]
+[Mon, 16 Dec 2013 10:41:58 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-Length], value:[87]
+[Mon, 16 Dec 2013 10:41:58 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Connection], value:[close]
+[Mon, 16 Dec 2013 10:41:58 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Date], value:[Mon, 16 Dec 2013 10:42:22 GMT]
+[Mon, 16 Dec 2013 10:41:58 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Server], value:[BaiduBS]
+[Mon, 16 Dec 2013 10:41:58 GMT] [DEBUG]  [bcs_sdk.cpp:435][FUNC:generate_url]bucket:[your-bucket-name], object:[/prefix/libbcs_sdk.so], method:[PUT] generate_url url:[http://bcs.duapp.com/your-bucket-name/prefix%2Flibbcs_sdk.so?sign=MBO:FFFFFFFFFFFFFFFFFF:sYkntWu64S9fjHVam%2Bo6SUtyiVs%3D]
+[Mon, 16 Dec 2013 10:41:59 GMT] [DEBUG]  [bcs_sdk.cpp:461][FUNC:get_key_value_from_response_header]raw response header:[HTTP/1.1 100 Continue
+Date: Mon, 16 Dec 2013 10:42:22 GMT
+Server: BaiduBS
+
+HTTP/1.1 403 Forbidden
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, PUT, POST, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Headers: Origin, Content-Type, Accept, Content-Length
+Content-Type: application/json
+x-bs-request-id: MTAuMzYuMTM1LjE2OjgwODA6MTA5MTEwMTI5NzoxNi9EZWMvMjAxMyAxODo0MjoyMiA=
+Content-Length: 87
+Connection: close
+Date: Mon, 16 Dec 2013 10:42:22 GMT
+Server: BaiduBS
+
+]
+[Mon, 16 Dec 2013 10:41:59 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Date], value:[Mon, 16 Dec 2013 10:42:22 GMT]
+[Mon, 16 Dec 2013 10:41:59 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Server], value:[BaiduBS]
+[Mon, 16 Dec 2013 10:41:59 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Access-Control-Allow-Origin], value:[*]
+[Mon, 16 Dec 2013 10:41:59 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Access-Control-Allow-Methods], value:[GET, PUT, POST, DELETE, OPTIONS, HEAD]
+[Mon, 16 Dec 2013 10:41:59 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Access-Control-Allow-Headers], value:[Origin, Content-Type, Accept, Content-Length]
+[Mon, 16 Dec 2013 10:41:59 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-Type], value:[application/json]
+[Mon, 16 Dec 2013 10:41:59 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[x-bs-request-id], value:[MTAuMzYuMTM1LjE2OjgwODA6MTA5MTEwMTI5NzoxNi9EZWMvMjAxMyAxODo0MjoyMiA=]
+[Mon, 16 Dec 2013 10:41:59 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-Length], value:[87]
+[Mon, 16 Dec 2013 10:41:59 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Connection], value:[close]
+[Mon, 16 Dec 2013 10:41:59 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Date], value:[Mon, 16 Dec 2013 10:42:22 GMT]
+[Mon, 16 Dec 2013 10:41:59 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Server], value:[BaiduBS]
+[Mon, 16 Dec 2013 10:41:59 GMT] [ERROR]  [bcs_sdk.cpp:1484][FUNC:dir_upload]dir_upload, object:[prefix/libbcs_sdk.so], ret:[1], res.status_code:[403], res.body:[{"Error":{"code":"11","Message":"ACL:Key-pair can not be found.","LogId":"1091101297"}}]
+[Mon, 16 Dec 2013 10:41:59 GMT] [DEBUG]  [bcs_sdk.cpp:435][FUNC:generate_url]bucket:[private-d], object:[/], method:[PUT] generate_url url:[http://bcs.duapp.com/private-d/?sign=MBO:FFFFFFFFFFFFFFFFFF:kxmc9OCQbxf%2FWAynBsqMhiRXpso%3D]
+[Mon, 16 Dec 2013 10:41:59 GMT] [DEBUG]  [bcs_sdk.cpp:461][FUNC:get_key_value_from_response_header]raw response header:[HTTP/1.1 403 Forbidden
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, PUT, POST, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Headers: Origin, Content-Type, Accept, Content-Length
+x-bs-request-id: eWYtYmFlLW9mZnVpMC0yNS55ZjAxLmJhaWR1LmNvbTo4MDo2ODE3NDI3NzAxNw==
+Content-Type: application/json
+Date: Mon, 16 Dec 2013 10:42:23 GMT
+Server: BWS/1.0
+x-bs-client-ip: MTc1LjguMTI0LjE5Mg==
+Transfer-Encoding: chunked
+
+]
+[Mon, 16 Dec 2013 10:41:59 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Access-Control-Allow-Origin], value:[*]
+[Mon, 16 Dec 2013 10:41:59 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Access-Control-Allow-Methods], value:[GET, PUT, POST, DELETE, OPTIONS, HEAD]
+[Mon, 16 Dec 2013 10:41:59 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Access-Control-Allow-Headers], value:[Origin, Content-Type, Accept, Content-Length]
+[Mon, 16 Dec 2013 10:41:59 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[x-bs-request-id], value:[eWYtYmFlLW9mZnVpMC0yNS55ZjAxLmJhaWR1LmNvbTo4MDo2ODE3NDI3NzAxNw==]
+[Mon, 16 Dec 2013 10:41:59 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-Type], value:[application/json]
+[Mon, 16 Dec 2013 10:41:59 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Date], value:[Mon, 16 Dec 2013 10:42:23 GMT]
+[Mon, 16 Dec 2013 10:41:59 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Server], value:[BWS/1.0]
+[Mon, 16 Dec 2013 10:41:59 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[x-bs-client-ip], value:[MTc1LjguMTI0LjE5Mg==]
+[Mon, 16 Dec 2013 10:41:59 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Transfer-Encoding], value:[chunked]
+[Mon, 16 Dec 2013 10:41:59 GMT] [DEBUG]  [bcs_sdk.cpp:435][FUNC:generate_url]bucket:[private-d], object:[/], method:[DELETE] generate_url url:[http://bcs.duapp.com/private-d/?sign=MBO:FFFFFFFFFFFFFFFFFF:X2cLJ8BLQzabh6GBaNWxfRcU7aQ%3D]
+[Mon, 16 Dec 2013 10:42:00 GMT] [DEBUG]  [bcs_sdk.cpp:461][FUNC:get_key_value_from_response_header]raw response header:[HTTP/1.1 403 Forbidden
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, PUT, POST, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Headers: Origin, Content-Type, Accept, Content-Length
+x-bs-request-id: eWYtYmFlLW9mZnVpMC0yMi55ZjAxLmJhaWR1LmNvbTo4MDoxODM3NDI0NTk3OQ==
+Content-Type: application/json
+Date: Mon, 16 Dec 2013 10:42:23 GMT
+Server: BWS/1.0
+x-bs-client-ip: MTc1LjguMTI0LjE5Mg==
+Transfer-Encoding: chunked
+
+]
+[Mon, 16 Dec 2013 10:42:00 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Access-Control-Allow-Origin], value:[*]
+[Mon, 16 Dec 2013 10:42:00 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Access-Control-Allow-Methods], value:[GET, PUT, POST, DELETE, OPTIONS, HEAD]
+[Mon, 16 Dec 2013 10:42:00 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Access-Control-Allow-Headers], value:[Origin, Content-Type, Accept, Content-Length]
+[Mon, 16 Dec 2013 10:42:00 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[x-bs-request-id], value:[eWYtYmFlLW9mZnVpMC0yMi55ZjAxLmJhaWR1LmNvbTo4MDoxODM3NDI0NTk3OQ==]
+[Mon, 16 Dec 2013 10:42:00 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-Type], value:[application/json]
+[Mon, 16 Dec 2013 10:42:00 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Date], value:[Mon, 16 Dec 2013 10:42:23 GMT]
+[Mon, 16 Dec 2013 10:42:00 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Server], value:[BWS/1.0]
+[Mon, 16 Dec 2013 10:42:00 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[x-bs-client-ip], value:[MTc1LjguMTI0LjE5Mg==]
+[Mon, 16 Dec 2013 10:42:00 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Transfer-Encoding], value:[chunked]
+[Mon, 16 Dec 2013 10:42:00 GMT] [DEBUG]  [bcs_sdk.cpp:936][FUNC:put_superfile]object_len:[9756], part_len:[268435456], thread:[1]
+[Mon, 16 Dec 2013 10:42:00 GMT] [DEBUG]  [bcs_sdk.cpp:435][FUNC:generate_url]bucket:[your-bucket-name], object:[/sp1_part_0], method:[PUT] generate_url url:[http://bcs.duapp.com/your-bucket-name/sp1_part_0?sign=MBO:FFFFFFFFFFFFFFFFFF:nbmbz6P0ZnbzR40R5gTo2hcoUwk%3D]
+[Mon, 16 Dec 2013 10:42:00 GMT] [DEBUG]  [bcs_sdk.cpp:970][FUNC:put_superfile]part_0 url:[http://bcs.duapp.com/your-bucket-name/sp1_part_0?sign=MBO:FFFFFFFFFFFFFFFFFF:nbmbz6P0ZnbzR40R5gTo2hcoUwk%3D], part_len:[9756]
+
+[Mon, 16 Dec 2013 10:42:00 GMT] [DEBUG]  [bcs_sdk.cpp:461][FUNC:get_key_value_from_response_header]raw response header:[HTTP/1.1 100 Continue
+Date: Mon, 16 Dec 2013 10:42:24 GMT
+Server: BaiduBS
+
+HTTP/1.1 403 Forbidden
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, PUT, POST, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Headers: Origin, Content-Type, Accept, Content-Length
+Content-Type: application/json
+x-bs-request-id: MTAuMzYuMTM1LjE2OjgwODA6MTEyNDc2OTU0NzoxNi9EZWMvMjAxMyAxODo0MjoyNCA=
+Content-Length: 87
+Connection: close
+Date: Mon, 16 Dec 2013 10:42:24 GMT
+Server: BaiduBS
+
+]
+[Mon, 16 Dec 2013 10:42:00 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Date], value:[Mon, 16 Dec 2013 10:42:24 GMT]
+[Mon, 16 Dec 2013 10:42:00 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Server], value:[BaiduBS]
+[Mon, 16 Dec 2013 10:42:00 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Access-Control-Allow-Origin], value:[*]
+[Mon, 16 Dec 2013 10:42:00 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Access-Control-Allow-Methods], value:[GET, PUT, POST, DELETE, OPTIONS, HEAD]
+[Mon, 16 Dec 2013 10:42:00 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Access-Control-Allow-Headers], value:[Origin, Content-Type, Accept, Content-Length]
+[Mon, 16 Dec 2013 10:42:00 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-Type], value:[application/json]
+[Mon, 16 Dec 2013 10:42:00 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[x-bs-request-id], value:[MTAuMzYuMTM1LjE2OjgwODA6MTEyNDc2OTU0NzoxNi9EZWMvMjAxMyAxODo0MjoyNCA=]
+[Mon, 16 Dec 2013 10:42:00 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-Length], value:[87]
+[Mon, 16 Dec 2013 10:42:00 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Connection], value:[close]
+[Mon, 16 Dec 2013 10:42:00 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Date], value:[Mon, 16 Dec 2013 10:42:24 GMT]
+[Mon, 16 Dec 2013 10:42:00 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Server], value:[BaiduBS]
+[Mon, 16 Dec 2013 10:42:00 GMT] [DEBUG]  [bcs_sdk.cpp:1026][FUNC:put_superfile]part_0 res.status_code:[403], res.body:[{"Error":{"code":"11","Message":"ACL:Key-pair can not be found.","LogId":"1124769547"}}]
+[Mon, 16 Dec 2013 10:42:00 GMT] [ERROR]  [bcs_sdk.cpp:1029][FUNC:put_superfile]put part_0 error
+[Mon, 16 Dec 2013 10:42:00 GMT] [DEBUG]  [bcs_sdk.cpp:747][FUNC:generate_json_object_list]part_0 bucket:[your-bucket-name], object:[/put_object_sample1]
+[Mon, 16 Dec 2013 10:42:00 GMT] [DEBUG]  [bcs_sdk.cpp:435][FUNC:generate_url]bucket:[your-bucket-name], object:[/put_object_sample1], method:[HEAD] generate_url url:[http://bcs.duapp.com/your-bucket-name/put_object_sample1?sign=MBO:FFFFFFFFFFFFFFFFFF:pPZtNX%2F2eINUUyMm0R2vvY7UC68%3D]
+[Mon, 16 Dec 2013 10:42:00 GMT] [DEBUG]  [bcs_sdk.cpp:461][FUNC:get_key_value_from_response_header]raw response header:[HTTP/1.1 403 Forbidden
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, PUT, POST, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Headers: Origin, Content-Type, Accept, Content-Length
+Content-Type: application/json
+x-bs-request-id: MTAuMzYuMTM1LjE2OjgwODA6MTEyNDY2Mzg1NjoxNi9EZWMvMjAxMyAxODo0MjoyNCA=
+Content-Length: 87
+Connection: close
+Date: Mon, 16 Dec 2013 10:42:24 GMT
+Server: BaiduBS
+
+]
+[Mon, 16 Dec 2013 10:42:00 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Access-Control-Allow-Origin], value:[*]
+[Mon, 16 Dec 2013 10:42:00 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Access-Control-Allow-Methods], value:[GET, PUT, POST, DELETE, OPTIONS, HEAD]
+[Mon, 16 Dec 2013 10:42:00 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Access-Control-Allow-Headers], value:[Origin, Content-Type, Accept, Content-Length]
+[Mon, 16 Dec 2013 10:42:00 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-Type], value:[application/json]
+[Mon, 16 Dec 2013 10:42:00 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[x-bs-request-id], value:[MTAuMzYuMTM1LjE2OjgwODA6MTEyNDY2Mzg1NjoxNi9EZWMvMjAxMyAxODo0MjoyNCA=]
+[Mon, 16 Dec 2013 10:42:00 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-Length], value:[87]
+[Mon, 16 Dec 2013 10:42:00 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Connection], value:[close]
+[Mon, 16 Dec 2013 10:42:00 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Date], value:[Mon, 16 Dec 2013 10:42:24 GMT]
+[Mon, 16 Dec 2013 10:42:00 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Server], value:[BaiduBS]
+[Mon, 16 Dec 2013 10:42:00 GMT] [ERROR]  [bcs_sdk.cpp:753][FUNC:generate_json_object_list]get etag error, res.status_code:[403], res.body:[HTTP/1.1 403 Forbidden
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, PUT, POST, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Headers: Origin, Content-Type, Accept, Content-Length
+Content-Type: application/json
+x-bs-request-id: MTAuMzYuMTM1LjE2OjgwODA6MTEyNDY2Mzg1NjoxNi9EZWMvMjAxMyAxODo0MjoyNCA=
+Content-Length: 87
+Connection: close
+Date: Mon, 16 Dec 2013 10:42:24 GMT
+Server: BaiduBS
+
+]
+[Mon, 16 Dec 2013 10:42:00 GMT] [ERROR]  [bcs_sdk.cpp:802][FUNC:merge]error parameters, generate json object list error
+[Mon, 16 Dec 2013 10:42:49 GMT] [DEBUG]  [bcs_sdk.cpp:301][FUNC:bcs_sdk]init bcs_sdk, ak:[FFFFFFFFFFFFFFFFFF], sk:[EEEEEEEEEEEEEEEEEE], host:[bcs.duapp.com], log_file_path:[log/bcs.log]
+[Mon, 16 Dec 2013 10:42:49 GMT] [DEBUG]  [bcs_sdk.cpp:435][FUNC:generate_url]bucket:[your-bucket-name], object:[/put_object_sample2], method:[PUT] generate_url url:[http://bcs.duapp.com/your-bucket-name/put_object_sample2?sign=MBO:FFFFFFFFFFFFFFFFFF:P4l4rvzheVcEU4wau276jhnq8js%3D]
+[Mon, 16 Dec 2013 10:42:49 GMT] [DEBUG]  [bcs_sdk.cpp:461][FUNC:get_key_value_from_response_header]raw response header:[HTTP/1.1 100 Continue
+Date: Mon, 16 Dec 2013 10:43:13 GMT
+Server: BaiduBS
+
+HTTP/1.1 403 Forbidden
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, PUT, POST, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Headers: Origin, Content-Type, Accept, Content-Length
+Content-Type: application/json
+x-bs-request-id: MTAuMzYuMTAwLjU2OjgwODA6MzgwODQzNTkyMDoxNi9EZWMvMjAxMyAxODo0MzoxMyA=
+Content-Length: 87
+Connection: close
+Date: Mon, 16 Dec 2013 10:43:13 GMT
+Server: BaiduBS
+
+]
+[Mon, 16 Dec 2013 10:42:49 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Date], value:[Mon, 16 Dec 2013 10:43:13 GMT]
+[Mon, 16 Dec 2013 10:42:49 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Server], value:[BaiduBS]
+[Mon, 16 Dec 2013 10:42:49 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Access-Control-Allow-Origin], value:[*]
+[Mon, 16 Dec 2013 10:42:49 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Access-Control-Allow-Methods], value:[GET, PUT, POST, DELETE, OPTIONS, HEAD]
+[Mon, 16 Dec 2013 10:42:49 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Access-Control-Allow-Headers], value:[Origin, Content-Type, Accept, Content-Length]
+[Mon, 16 Dec 2013 10:42:49 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-Type], value:[application/json]
+[Mon, 16 Dec 2013 10:42:49 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[x-bs-request-id], value:[MTAuMzYuMTAwLjU2OjgwODA6MzgwODQzNTkyMDoxNi9EZWMvMjAxMyAxODo0MzoxMyA=]
+[Mon, 16 Dec 2013 10:42:49 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-Length], value:[87]
+[Mon, 16 Dec 2013 10:42:49 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Connection], value:[close]
+[Mon, 16 Dec 2013 10:42:49 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Date], value:[Mon, 16 Dec 2013 10:43:13 GMT]
+[Mon, 16 Dec 2013 10:42:49 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Server], value:[BaiduBS]
+[Mon, 16 Dec 2013 10:44:40 GMT] [DEBUG]  [bcs_sdk.cpp:301][FUNC:bcs_sdk]init bcs_sdk, ak:[reIi2eE41AGGn9zd0FxuTHHY], sk:[VaiNwPV9tvphCLRvlZ2RvVRkvPHrwaCf], host:[bcs.duapp.com], log_file_path:[log/bcs.log]
+[Mon, 16 Dec 2013 10:44:40 GMT] [DEBUG]  [bcs_sdk.cpp:435][FUNC:generate_url]bucket:[fuz-netdisk], object:[/put_object_sample2], method:[PUT] generate_url url:[http://bcs.duapp.com/fuz-netdisk/put_object_sample2?sign=MBO:reIi2eE41AGGn9zd0FxuTHHY:wrXsbZegsZdzQ5MLA1b7t9XfgwY%3D]
+[Mon, 16 Dec 2013 10:44:42 GMT] [DEBUG]  [bcs_sdk.cpp:461][FUNC:get_key_value_from_response_header]raw response header:[HTTP/1.1 100 Continue
+Date: Mon, 16 Dec 2013 10:45:05 GMT
+Server: BaiduBS
+
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, PUT, POST, DELETE, OPTIONS, HEAD
+Access-Control-Allow-Headers: Origin, Content-Type, Accept, Content-Length
+x-bs-version: D91AF74FFA0CEA1EF3DA385061561E9D
+ETag: 212a649c411d9d942f72dc48f98858c9
+Content-MD5: 212a649c411d9d942f72dc48f98858c9
+x-bs-request-id: MTAuMzYuMTA4LjM2OjgwODA6MjQ1MDAyNzI5MzoxNi9EZWMvMjAxMyAxODo0NTowNSA=
+x-bs-file-size: 72
+x-bs-client-ip: MTc1LjguMTI0LjE5Mg==
+Content-Length: 0
+Date: Mon, 16 Dec 2013 10:45:05 GMT
+Server: BaiduBS
+
+]
+[Mon, 16 Dec 2013 10:44:42 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Date], value:[Mon, 16 Dec 2013 10:45:05 GMT]
+[Mon, 16 Dec 2013 10:44:42 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Server], value:[BaiduBS]
+[Mon, 16 Dec 2013 10:44:42 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Access-Control-Allow-Origin], value:[*]
+[Mon, 16 Dec 2013 10:44:42 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Access-Control-Allow-Methods], value:[GET, PUT, POST, DELETE, OPTIONS, HEAD]
+[Mon, 16 Dec 2013 10:44:42 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Access-Control-Allow-Headers], value:[Origin, Content-Type, Accept, Content-Length]
+[Mon, 16 Dec 2013 10:44:42 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[x-bs-version], value:[D91AF74FFA0CEA1EF3DA385061561E9D]
+[Mon, 16 Dec 2013 10:44:42 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[ETag], value:[212a649c411d9d942f72dc48f98858c9]
+[Mon, 16 Dec 2013 10:44:42 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-MD5], value:[212a649c411d9d942f72dc48f98858c9]
+[Mon, 16 Dec 2013 10:44:42 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[x-bs-request-id], value:[MTAuMzYuMTA4LjM2OjgwODA6MjQ1MDAyNzI5MzoxNi9EZWMvMjAxMyAxODo0NTowNSA=]
+[Mon, 16 Dec 2013 10:44:42 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[x-bs-file-size], value:[72]
+[Mon, 16 Dec 2013 10:44:42 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[x-bs-client-ip], value:[MTc1LjguMTI0LjE5Mg==]
+[Mon, 16 Dec 2013 10:44:42 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-Length], value:[0]
+[Mon, 16 Dec 2013 10:44:42 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Date], value:[Mon, 16 Dec 2013 10:45:05 GMT]
+[Mon, 16 Dec 2013 10:44:42 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Server], value:[BaiduBS]
