@@ -1,0 +1,3 @@
+1 首先到http://yun.baidu.com申请ak,sk,以及创建Bucket，设置bucket的额度
+2 sample.cpp 是一个样例，如果想要运行,必须先修改ak、sk、bucket名字
+3 更多信息，请查看include/bcs_sdk.h文件或者查询文档http://dev.baidu.com/wiki/bcs/index.php

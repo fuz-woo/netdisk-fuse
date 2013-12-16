@@ -1,0 +1,23 @@
+pkgname="baidu-opensdk"
+pkgver="1.0"
+pkgrel=1
+arch=('mips64el')
+license=("BSD")
+source=("http://bcs.duapp.com/easy-tool/c-cplusplus-sdk.1.0.tar.gz")
+md5sums=("df7f22af13b3cac4334a8cf39ad7362b")
+
+build() {
+	echo "Building..."
+	cd $srcdir
+	tar -xvf c-cplusplus-sdk.1.0.tar.gz
+	cd c-cplusplus-sdk.1.0
+	make
+	echo "Done."
+}
+
+package() {
+	echo "Packaging..."
+	mkdir -p $pkgdir/usr/
+	cp -r $srcdir/{include,lib} $pkgdir/usr/
+	echo "Done."
+}

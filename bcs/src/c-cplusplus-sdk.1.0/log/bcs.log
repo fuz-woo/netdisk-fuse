@@ -1,0 +1,549 @@
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:301][FUNC:bcs_sdk]init bcs_sdk, ak:[DCb740ccc5511e5e8fedcff06b081203], sk:[4b46bd51702ba7473f2bcf906519e013], host:[bcs.duapp.com], log_file_path:[log/bcs.log]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:435][FUNC:generate_url]bucket:[your-bucket-name], object:[/put_object_sample2], method:[PUT] generate_url url:[http://bcs.duapp.com/your-bucket-name/put_object_sample2?sign=MBO:DCb740ccc5511e5e8fedcff06b081203:qenK0d6gkBJ3PG%2FCnnwZqzVQ6hg%3D]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:461][FUNC:get_key_value_from_response_header]raw response header:[HTTP/1.1 100 Continue
+Date: Mon, 05 Mar 2012 11:27:35 GMT
+Server: BaiduBS
+
+HTTP/1.1 200 OK
+x-bs-version: 9c9435023b9bab2a178c1f8dcc2bcf3c
+ETag: 212a649c411d9d942f72dc48f98858c9
+Content-MD5: 212a649c411d9d942f72dc48f98858c9
+x-bs-request-id: dGMtYmFlLXdhbmJjc3VpMS50Yy5iYWlkdS5jb206ODA4MDo5MDY3Njc0OTQA
+Content-Length: 0
+Date: Mon, 05 Mar 2012 11:27:35 GMT
+Server: BaiduBS
+
+]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Date], value:[Mon, 05 Mar 2012 11:27:35 GMT]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Server], value:[BaiduBS]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[x-bs-version], value:[9c9435023b9bab2a178c1f8dcc2bcf3c]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[ETag], value:[212a649c411d9d942f72dc48f98858c9]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-MD5], value:[212a649c411d9d942f72dc48f98858c9]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[x-bs-request-id], value:[dGMtYmFlLXdhbmJjc3VpMS50Yy5iYWlkdS5jb206ODA4MDo5MDY3Njc0OTQA]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-Length], value:[0]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Date], value:[Mon, 05 Mar 2012 11:27:35 GMT]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Server], value:[BaiduBS]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:435][FUNC:generate_url]bucket:[your-bucket-name], object:[/put_object_sample1], method:[PUT] generate_url url:[http://bcs.duapp.com/your-bucket-name/put_object_sample1?sign=MBO:DCb740ccc5511e5e8fedcff06b081203:%2B8SCwhCL0FvNGAanuRaw6sG%2BJhM%3D]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:461][FUNC:get_key_value_from_response_header]raw response header:[HTTP/1.1 100 Continue
+Date: Mon, 05 Mar 2012 11:27:35 GMT
+Server: BaiduBS
+
+HTTP/1.1 200 OK
+x-bs-version: 733554ee18f7c65cff4773720a92ac8c
+ETag: 212a649c411d9d942f72dc48f98858c9
+Content-MD5: 212a649c411d9d942f72dc48f98858c9
+x-bs-request-id: dGMtYmFlLXdhbmJjc3VpNi50Yy5iYWlkdS5jb206ODA4MDoxOTQ2MzU1MTI0AA==
+Content-Length: 0
+Date: Mon, 05 Mar 2012 11:27:35 GMT
+Server: BaiduBS
+
+]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Date], value:[Mon, 05 Mar 2012 11:27:35 GMT]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Server], value:[BaiduBS]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[x-bs-version], value:[733554ee18f7c65cff4773720a92ac8c]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[ETag], value:[212a649c411d9d942f72dc48f98858c9]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-MD5], value:[212a649c411d9d942f72dc48f98858c9]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[x-bs-request-id], value:[dGMtYmFlLXdhbmJjc3VpNi50Yy5iYWlkdS5jb206ODA4MDoxOTQ2MzU1MTI0AA==]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-Length], value:[0]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Date], value:[Mon, 05 Mar 2012 11:27:35 GMT]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Server], value:[BaiduBS]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:435][FUNC:generate_url]bucket:[your-bucket-name], object:[/put_object_sample2], method:[PUT] generate_url url:[http://bcs.duapp.com/your-bucket-name/put_object_sample2?sign=MBO:DCb740ccc5511e5e8fedcff06b081203:qenK0d6gkBJ3PG%2FCnnwZqzVQ6hg%3D]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:461][FUNC:get_key_value_from_response_header]raw response header:[HTTP/1.1 100 Continue
+Date: Mon, 05 Mar 2012 11:27:35 GMT
+Server: BaiduBS
+
+HTTP/1.1 200 OK
+x-bs-version: be1597382574f5907eee308a51729226
+ETag: 212a649c411d9d942f72dc48f98858c9
+Content-MD5: 212a649c411d9d942f72dc48f98858c9
+x-bs-request-id: dGMtYmFlLXdhbmJjc3VpMTEudGMuYmFpZHUuY29tOjgwODA6MTQ5MzQ2MzAyNwA=
+Content-Length: 0
+Date: Mon, 05 Mar 2012 11:27:35 GMT
+Server: BaiduBS
+
+]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Date], value:[Mon, 05 Mar 2012 11:27:35 GMT]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Server], value:[BaiduBS]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[x-bs-version], value:[be1597382574f5907eee308a51729226]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[ETag], value:[212a649c411d9d942f72dc48f98858c9]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-MD5], value:[212a649c411d9d942f72dc48f98858c9]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[x-bs-request-id], value:[dGMtYmFlLXdhbmJjc3VpMTEudGMuYmFpZHUuY29tOjgwODA6MTQ5MzQ2MzAyNwA=]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-Length], value:[0]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Date], value:[Mon, 05 Mar 2012 11:27:35 GMT]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Server], value:[BaiduBS]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:435][FUNC:generate_url]bucket:[your-bucket-name], object:[/put_object_from_memory.txt], method:[PUT] generate_url url:[http://bcs.duapp.com/your-bucket-name/put_object_from_memory.txt?sign=MBO:DCb740ccc5511e5e8fedcff06b081203:2eA6Jar7osXVxINUwAdlfynVF2o%3D]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:461][FUNC:get_key_value_from_response_header]raw response header:[HTTP/1.1 100 Continue
+Date: Mon, 05 Mar 2012 11:27:35 GMT
+Server: BaiduBS
+
+HTTP/1.1 200 OK
+x-bs-version: 5596785f38042389fb41a3a12027f1b7
+ETag: 098f6bcd4621d373cade4e832627b4f6
+Content-MD5: 098f6bcd4621d373cade4e832627b4f6
+x-bs-request-id: dGMtYmFlLXdhbmJjc3VpNC50Yy5iYWlkdS5jb206ODA4MDoxMTI0ODQ4MDQ4AA==
+Content-Length: 0
+Date: Mon, 05 Mar 2012 11:27:36 GMT
+Server: BaiduBS
+
+]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Date], value:[Mon, 05 Mar 2012 11:27:35 GMT]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Server], value:[BaiduBS]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[x-bs-version], value:[5596785f38042389fb41a3a12027f1b7]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[ETag], value:[098f6bcd4621d373cade4e832627b4f6]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-MD5], value:[098f6bcd4621d373cade4e832627b4f6]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[x-bs-request-id], value:[dGMtYmFlLXdhbmJjc3VpNC50Yy5iYWlkdS5jb206ODA4MDoxMTI0ODQ4MDQ4AA==]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-Length], value:[0]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Date], value:[Mon, 05 Mar 2012 11:27:36 GMT]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Server], value:[BaiduBS]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:435][FUNC:generate_url]bucket:[your-bucket-name], object:[/put_object_from_memory_3.txt], method:[PUT] generate_url url:[http://bcs.duapp.com/your-bucket-name/put_object_from_memory_3.txt?sign=MBO:DCb740ccc5511e5e8fedcff06b081203:AD7S8Rk0d9E0wQ2LS9%2Bpug5NcD0%3D]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:461][FUNC:get_key_value_from_response_header]raw response header:[HTTP/1.1 100 Continue
+Date: Mon, 05 Mar 2012 11:27:35 GMT
+Server: BaiduBS
+
+HTTP/1.1 200 OK
+x-bs-version: 04469832f059f43de3661beca261a687
+ETag: 570c3ca4345a76966b23a0c2b9b00693
+Content-MD5: 570c3ca4345a76966b23a0c2b9b00693
+x-bs-request-id: dGMtYmFlLXdhbmJjc3VpMi50Yy5iYWlkdS5jb206ODA4MDo5NTcwNzgyOTQA
+Content-Length: 0
+Date: Mon, 05 Mar 2012 11:27:36 GMT
+Server: BaiduBS
+
+]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Date], value:[Mon, 05 Mar 2012 11:27:35 GMT]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Server], value:[BaiduBS]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[x-bs-version], value:[04469832f059f43de3661beca261a687]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[ETag], value:[570c3ca4345a76966b23a0c2b9b00693]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-MD5], value:[570c3ca4345a76966b23a0c2b9b00693]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[x-bs-request-id], value:[dGMtYmFlLXdhbmJjc3VpMi50Yy5iYWlkdS5jb206ODA4MDo5NTcwNzgyOTQA]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-Length], value:[0]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Date], value:[Mon, 05 Mar 2012 11:27:36 GMT]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Server], value:[BaiduBS]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:435][FUNC:generate_url]bucket:[your-bucket-name], object:[/put_object_from_memory.txt], method:[GET] generate_url url:[http://bcs.duapp.com/your-bucket-name/put_object_from_memory.txt?sign=MBO:DCb740ccc5511e5e8fedcff06b081203:kv1uMAgO3zw4E9QGnj37kpskedU%3D]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:461][FUNC:get_key_value_from_response_header]raw response header:[HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Last-Modified: Mon, 05 Mar 2012 11:27:35 GMT
+Expires: Thu, 08 Mar 2012 11:27:36 GMT
+ETag: 098f6bcd4621d373cade4e832627b4f6
+Content-Type: text/plain
+x-bs-request-id: dGMtYmFlLXdhbmJjc3VpMy50Yy5iYWlkdS5jb206ODA4MDoxMDA2ODA4NjI1AA==
+x-bs-meta-crc32: 3632233996
+Content-MD5: 098f6bcd4621d373cade4e832627b4f6
+Content-Length: 4
+Date: Mon, 05 Mar 2012 11:27:36 GMT
+Server: BaiduBS
+
+]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Accept-Ranges], value:[bytes]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Last-Modified], value:[Mon, 05 Mar 2012 11:27:35 GMT]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Expires], value:[Thu, 08 Mar 2012 11:27:36 GMT]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[ETag], value:[098f6bcd4621d373cade4e832627b4f6]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-Type], value:[text/plain]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[x-bs-request-id], value:[dGMtYmFlLXdhbmJjc3VpMy50Yy5iYWlkdS5jb206ODA4MDoxMDA2ODA4NjI1AA==]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[x-bs-meta-crc32], value:[3632233996]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-MD5], value:[098f6bcd4621d373cade4e832627b4f6]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-Length], value:[4]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Date], value:[Mon, 05 Mar 2012 11:27:36 GMT]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Server], value:[BaiduBS]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:435][FUNC:generate_url]bucket:[your-bucket-name], object:[/put_object_sample1], method:[GET] generate_url url:[http://bcs.duapp.com/your-bucket-name/put_object_sample1?sign=MBO:DCb740ccc5511e5e8fedcff06b081203:1FydqMIeWlHNOwEgBk2EjCQl6rY%3D&response-cache-control=private]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:461][FUNC:get_key_value_from_response_header]raw response header:[HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Last-Modified: Mon, 05 Mar 2012 11:27:35 GMT
+Expires: Thu, 08 Mar 2012 11:27:36 GMT
+ETag: 212a649c411d9d942f72dc48f98858c9
+Content-Type: application/octet-stream
+x-bs-request-id: dGMtYmFlLXdhbmJjc3VpMi50Yy5iYWlkdS5jb206ODA4MDo5Mzk4MTc3ODcA
+x-bs-meta-map: test
+x-bs-meta-crc32: 892057003
+Content-MD5: 212a649c411d9d942f72dc48f98858c9
+Cache-Control: private
+Content-Length: 72
+Date: Mon, 05 Mar 2012 11:27:36 GMT
+Server: BaiduBS
+
+]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Accept-Ranges], value:[bytes]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Last-Modified], value:[Mon, 05 Mar 2012 11:27:35 GMT]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Expires], value:[Thu, 08 Mar 2012 11:27:36 GMT]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[ETag], value:[212a649c411d9d942f72dc48f98858c9]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-Type], value:[application/octet-stream]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[x-bs-request-id], value:[dGMtYmFlLXdhbmJjc3VpMi50Yy5iYWlkdS5jb206ODA4MDo5Mzk4MTc3ODcA]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[x-bs-meta-map], value:[test]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[x-bs-meta-crc32], value:[892057003]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-MD5], value:[212a649c411d9d942f72dc48f98858c9]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Cache-Control], value:[private]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-Length], value:[72]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Date], value:[Mon, 05 Mar 2012 11:27:36 GMT]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Server], value:[BaiduBS]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:435][FUNC:generate_url]bucket:[your-bucket-name], object:[/put_object_sample1], method:[HEAD] generate_url url:[http://bcs.duapp.com/your-bucket-name/put_object_sample1?sign=MBO:DCb740ccc5511e5e8fedcff06b081203:LpV1y9A5jWE1uHeUWv9Q4ehtzmw%3D]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:461][FUNC:get_key_value_from_response_header]raw response header:[HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Last-Modified: Mon, 05 Mar 2012 11:27:35 GMT
+Expires: Thu, 08 Mar 2012 11:27:36 GMT
+ETag: 212a649c411d9d942f72dc48f98858c9
+Content-Type: application/octet-stream
+x-bs-request-id: dGMtYmFlLXdhbmJjc3VpMC50Yy5iYWlkdS5jb206ODA4MDo4NTY0MDA2MjcA
+x-bs-meta-map: test
+x-bs-meta-crc32: 892057003
+Content-MD5: 212a649c411d9d942f72dc48f98858c9
+Content-Length: 72
+Connection: close
+Date: Mon, 05 Mar 2012 11:27:36 GMT
+Server: BaiduBS
+
+]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Accept-Ranges], value:[bytes]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Last-Modified], value:[Mon, 05 Mar 2012 11:27:35 GMT]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Expires], value:[Thu, 08 Mar 2012 11:27:36 GMT]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[ETag], value:[212a649c411d9d942f72dc48f98858c9]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-Type], value:[application/octet-stream]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[x-bs-request-id], value:[dGMtYmFlLXdhbmJjc3VpMC50Yy5iYWlkdS5jb206ODA4MDo4NTY0MDA2MjcA]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[x-bs-meta-map], value:[test]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[x-bs-meta-crc32], value:[892057003]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-MD5], value:[212a649c411d9d942f72dc48f98858c9]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-Length], value:[72]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Connection], value:[close]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Date], value:[Mon, 05 Mar 2012 11:27:36 GMT]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Server], value:[BaiduBS]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:435][FUNC:generate_url]bucket:[your-bucket-name], object:[/copy_object], method:[PUT] generate_url url:[http://bcs.duapp.com/your-bucket-name/copy_object?sign=MBO:DCb740ccc5511e5e8fedcff06b081203:%2FbSdFY4g3XRRJYRtjWRN0w%2B4TM0%3D]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:461][FUNC:get_key_value_from_response_header]raw response header:[HTTP/1.1 200 OK
+x-bs-version: 72c0369d3c7258bba47938b8323cb46a
+ETag: d41d8cd98f00b204e9800998ecf8427e
+Content-MD5: d41d8cd98f00b204e9800998ecf8427e
+x-bs-request-id: dGMtYmFlLXdhbmJjc3VpMTAudGMuYmFpZHUuY29tOjgwODA6MTcxMTQ4NTc2MAA=
+Content-Length: 0
+Date: Mon, 05 Mar 2012 11:27:36 GMT
+Server: BaiduBS
+
+]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[x-bs-version], value:[72c0369d3c7258bba47938b8323cb46a]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[ETag], value:[d41d8cd98f00b204e9800998ecf8427e]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-MD5], value:[d41d8cd98f00b204e9800998ecf8427e]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[x-bs-request-id], value:[dGMtYmFlLXdhbmJjc3VpMTAudGMuYmFpZHUuY29tOjgwODA6MTcxMTQ4NTc2MAA=]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-Length], value:[0]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Date], value:[Mon, 05 Mar 2012 11:27:36 GMT]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Server], value:[BaiduBS]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:435][FUNC:generate_url]bucket:[your-bucket-name], object:[/put_object_sample1], method:[PUT] generate_url url:[http://bcs.duapp.com/your-bucket-name/put_object_sample1?sign=MBO:DCb740ccc5511e5e8fedcff06b081203:%2B8SCwhCL0FvNGAanuRaw6sG%2BJhM%3D]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:461][FUNC:get_key_value_from_response_header]raw response header:[HTTP/1.1 200 OK
+x-bs-version: 3858181f8c8a43f775f275b14c3725e7
+ETag: d41d8cd98f00b204e9800998ecf8427e
+Content-MD5: d41d8cd98f00b204e9800998ecf8427e
+x-bs-request-id: dGMtYmFlLXdhbmJjc3VpOC50Yy5iYWlkdS5jb206ODA4MDoxNTc3MjM4MDY5AA==
+Content-Length: 0
+Date: Mon, 05 Mar 2012 11:27:36 GMT
+Server: BaiduBS
+
+]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[x-bs-version], value:[3858181f8c8a43f775f275b14c3725e7]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[ETag], value:[d41d8cd98f00b204e9800998ecf8427e]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-MD5], value:[d41d8cd98f00b204e9800998ecf8427e]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[x-bs-request-id], value:[dGMtYmFlLXdhbmJjc3VpOC50Yy5iYWlkdS5jb206ODA4MDoxNTc3MjM4MDY5AA==]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-Length], value:[0]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Date], value:[Mon, 05 Mar 2012 11:27:36 GMT]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Server], value:[BaiduBS]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:435][FUNC:generate_url]bucket:[], object:[/], method:[GET] generate_url url:[http://bcs.duapp.com//?sign=MBO:DCb740ccc5511e5e8fedcff06b081203:N%2BGZLnlOJvkqdEkmZ04DoTUE4v0%3D]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:461][FUNC:get_key_value_from_response_header]raw response header:[HTTP/1.1 200 OK
+x-bs-request-id: eWYtYmFlLW9mZnVpMC0zLnlmMDEuYmFpZHUuY29tOjgwODA6MTMzMDk1NTQ0NQ==
+Content-type: text/html
+Date: Mon, 05 Mar 2012 11:27:36 GMT
+Server: BWS/1.0
+Transfer-Encoding: chunked
+
+]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[x-bs-request-id], value:[eWYtYmFlLW9mZnVpMC0zLnlmMDEuYmFpZHUuY29tOjgwODA6MTMzMDk1NTQ0NQ==]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-type], value:[text/html]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Date], value:[Mon, 05 Mar 2012 11:27:36 GMT]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Server], value:[BWS/1.0]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Transfer-Encoding], value:[chunked]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:435][FUNC:generate_url]bucket:[your-bucket-name], object:[/], method:[GET] generate_url url:[http://bcs.duapp.com/your-bucket-name/?sign=MBO:DCb740ccc5511e5e8fedcff06b081203:WwegQUAb7WZFCRRkpHq3qqZStBs%3D&start=3&limit=3]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:461][FUNC:get_key_value_from_response_header]raw response header:[HTTP/1.1 200 OK
+x-bs-request-id: dGMtYmFlLW9mZnVpMC0wLnRjLmJhaWR1LmNvbTo4MDgwOjEzMzA5NTQ3ODg=
+Content-type: text/html
+Date: Mon, 05 Mar 2012 11:27:36 GMT
+Server: BWS/1.0
+Transfer-Encoding: chunked
+
+]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[x-bs-request-id], value:[dGMtYmFlLW9mZnVpMC0wLnRjLmJhaWR1LmNvbTo4MDgwOjEzMzA5NTQ3ODg=]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-type], value:[text/html]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Date], value:[Mon, 05 Mar 2012 11:27:36 GMT]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Server], value:[BWS/1.0]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Transfer-Encoding], value:[chunked]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:435][FUNC:generate_url]bucket:[your-bucket-name], object:[/copy_objcet], method:[PUT] generate_url url:[http://bcs.duapp.com/your-bucket-name/copy_objcet?sign=MBO:DCb740ccc5511e5e8fedcff06b081203:bXCaj6RF93Q8gvkLUbV4wZBOejE%3D&x-bs-versioning=1]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:461][FUNC:get_key_value_from_response_header]raw response header:[HTTP/1.1 100 Continue
+Date: Mon, 05 Mar 2012 11:27:36 GMT
+Server: BaiduBS
+
+HTTP/1.1 200 OK
+x-bs-version: cf28b46d4de3d2d6b83f713a5f18e80a
+ETag: 212a649c411d9d942f72dc48f98858c9
+Content-MD5: 212a649c411d9d942f72dc48f98858c9
+x-bs-request-id: dGMtYmFlLXdhbmJjc3VpNS50Yy5iYWlkdS5jb206ODA4MDoxODc5MzQyMDgzAA==
+Content-Length: 0
+Date: Mon, 05 Mar 2012 11:27:36 GMT
+Server: BaiduBS
+
+]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Date], value:[Mon, 05 Mar 2012 11:27:36 GMT]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Server], value:[BaiduBS]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[x-bs-version], value:[cf28b46d4de3d2d6b83f713a5f18e80a]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[ETag], value:[212a649c411d9d942f72dc48f98858c9]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-MD5], value:[212a649c411d9d942f72dc48f98858c9]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[x-bs-request-id], value:[dGMtYmFlLXdhbmJjc3VpNS50Yy5iYWlkdS5jb206ODA4MDoxODc5MzQyMDgzAA==]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-Length], value:[0]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Date], value:[Mon, 05 Mar 2012 11:27:36 GMT]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Server], value:[BaiduBS]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:435][FUNC:generate_url]bucket:[your-bucket-name], object:[/copy_object], method:[GET] generate_url url:[http://bcs.duapp.com/your-bucket-name/copy_object?sign=MBO:DCb740ccc5511e5e8fedcff06b081203:O5qx3YHzHs%2BHaK6FBcXjHilb6i0%3D&x-bs-versions=1]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:461][FUNC:get_key_value_from_response_header]raw response header:[HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Last-Modified: Mon, 05 Mar 2012 11:27:36 GMT
+Expires: Thu, 08 Mar 2012 11:27:36 GMT
+ETag: 212a649c411d9d942f72dc48f98858c9
+Content-Type: application/octet-stream
+x-bs-request-id: dGMtYmFlLXdhbmJjc3VpNy50Yy5iYWlkdS5jb206ODA4MDoxNDI2MjQ1NDIwAA==
+x-bs-meta-map: test
+x-bs-meta-crc32: 892057003
+Content-MD5: 212a649c411d9d942f72dc48f98858c9
+Content-Length: 72
+Date: Mon, 05 Mar 2012 11:27:36 GMT
+Server: BaiduBS
+
+]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Accept-Ranges], value:[bytes]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Last-Modified], value:[Mon, 05 Mar 2012 11:27:36 GMT]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Expires], value:[Thu, 08 Mar 2012 11:27:36 GMT]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[ETag], value:[212a649c411d9d942f72dc48f98858c9]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-Type], value:[application/octet-stream]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[x-bs-request-id], value:[dGMtYmFlLXdhbmJjc3VpNy50Yy5iYWlkdS5jb206ODA4MDoxNDI2MjQ1NDIwAA==]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[x-bs-meta-map], value:[test]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[x-bs-meta-crc32], value:[892057003]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-MD5], value:[212a649c411d9d942f72dc48f98858c9]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-Length], value:[72]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Date], value:[Mon, 05 Mar 2012 11:27:36 GMT]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Server], value:[BaiduBS]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:435][FUNC:generate_url]bucket:[your-bucket-name], object:[/copy_object], method:[DELETE] generate_url url:[http://bcs.duapp.com/your-bucket-name/copy_object?sign=MBO:DCb740ccc5511e5e8fedcff06b081203:Tacb0G%2Bjt0h4KmxdolqqQIoOEZM%3D]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:461][FUNC:get_key_value_from_response_header]raw response header:[HTTP/1.1 200 OK
+Content-Length: 0
+Date: Mon, 05 Mar 2012 11:27:36 GMT
+Server: BaiduBS
+
+]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-Length], value:[0]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Date], value:[Mon, 05 Mar 2012 11:27:36 GMT]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Server], value:[BaiduBS]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:435][FUNC:generate_url]bucket:[your-bucket-name], object:[/object_not_exist], method:[DELETE] generate_url url:[http://bcs.duapp.com/your-bucket-name/object_not_exist?sign=MBO:DCb740ccc5511e5e8fedcff06b081203:2uPQNaXAJS5voiM47llGLJO59J8%3D]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:461][FUNC:get_key_value_from_response_header]raw response header:[HTTP/1.1 404 Not Found
+Content-Type: application/json
+x-bs-request-id: dGMtYmFlLXdhbmJjc3VpNC50Yy5iYWlkdS5jb206ODA4MDoxMTI0ODQ4MDQ5AA==
+Content-Length: 73
+Connection: close
+Date: Mon, 05 Mar 2012 11:27:36 GMT
+Server: BaiduBS
+
+]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-Type], value:[application/json]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[x-bs-request-id], value:[dGMtYmFlLXdhbmJjc3VpNC50Yy5iYWlkdS5jb206ODA4MDoxMTI0ODQ4MDQ5AA==]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-Length], value:[73]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Connection], value:[close]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Date], value:[Mon, 05 Mar 2012 11:27:36 GMT]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Server], value:[BaiduBS]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:435][FUNC:generate_url]bucket:[your-bucket-name], object:[/prefix/libbcs_sdk.so], method:[PUT] generate_url url:[http://bcs.duapp.com/your-bucket-name/prefix%2Flibbcs_sdk.so?sign=MBO:DCb740ccc5511e5e8fedcff06b081203:b%2F%2BHn%2BGzMhtMH4TdLuCJgol3H08%3D]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:461][FUNC:get_key_value_from_response_header]raw response header:[HTTP/1.1 100 Continue
+Date: Mon, 05 Mar 2012 11:27:36 GMT
+Server: BaiduBS
+
+HTTP/1.1 200 OK
+x-bs-version: e898bf134bd0d4192f3d422406f1d2ff
+ETag: d3f53e889eca6c20763f8cd1ba10a07a
+Content-MD5: d3f53e889eca6c20763f8cd1ba10a07a
+x-bs-request-id: dGMtYmFlLXdhbmJjc3VpMTEudGMuYmFpZHUuY29tOjgwODA6MTUxMDczNTkzMwA=
+Content-Length: 0
+Date: Mon, 05 Mar 2012 11:27:36 GMT
+Server: BaiduBS
+
+]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Date], value:[Mon, 05 Mar 2012 11:27:36 GMT]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Server], value:[BaiduBS]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[x-bs-version], value:[e898bf134bd0d4192f3d422406f1d2ff]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[ETag], value:[d3f53e889eca6c20763f8cd1ba10a07a]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-MD5], value:[d3f53e889eca6c20763f8cd1ba10a07a]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[x-bs-request-id], value:[dGMtYmFlLXdhbmJjc3VpMTEudGMuYmFpZHUuY29tOjgwODA6MTUxMDczNTkzMwA=]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-Length], value:[0]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Date], value:[Mon, 05 Mar 2012 11:27:36 GMT]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Server], value:[BaiduBS]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:1489][FUNC:dir_upload]dir_upload, object:[prefix/libbcs_sdk.so], ret:[0], res.status_code:[200], res.body:[]
+[Mon, 05 Mar 2012 18:56:31 GMT] [DEBUG]  [bcs_sdk.cpp:435][FUNC:generate_url]bucket:[private-d], object:[/], method:[PUT] generate_url url:[http://bcs.duapp.com/private-d/?sign=MBO:DCb740ccc5511e5e8fedcff06b081203:3sVA1wZGNkxyeVexcv46yeI9NHQ%3D]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:461][FUNC:get_key_value_from_response_header]raw response header:[HTTP/1.1 200 OK
+x-bs-request-id: dGMtYmFlLW9mZnVpMC0zLnRjLmJhaWR1LmNvbTo4MDgwOjEzMzA5NTI1NTA=
+Content-type: text/html
+Date: Mon, 05 Mar 2012 11:27:36 GMT
+Server: BWS/1.0
+Content-Length: 0
+
+]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[x-bs-request-id], value:[dGMtYmFlLW9mZnVpMC0zLnRjLmJhaWR1LmNvbTo4MDgwOjEzMzA5NTI1NTA=]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-type], value:[text/html]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Date], value:[Mon, 05 Mar 2012 11:27:36 GMT]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Server], value:[BWS/1.0]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-Length], value:[0]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:435][FUNC:generate_url]bucket:[private-d], object:[/], method:[DELETE] generate_url url:[http://bcs.duapp.com/private-d/?sign=MBO:DCb740ccc5511e5e8fedcff06b081203:49x4ztDqTAVAcqvw2SzN2m%2B3%2Bu4%3D]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:461][FUNC:get_key_value_from_response_header]raw response header:[HTTP/1.1 200 OK
+x-bs-request-id: dGMtYmFlLW9mZnVpMC0yLnRjLmJhaWR1LmNvbTo4MDgwOjEzMzA5NTEwNTQ=
+Content-type: text/html
+Date: Mon, 05 Mar 2012 11:27:36 GMT
+Server: BWS/1.0
+Content-Length: 0
+
+]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[x-bs-request-id], value:[dGMtYmFlLW9mZnVpMC0yLnRjLmJhaWR1LmNvbTo4MDgwOjEzMzA5NTEwNTQ=]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-type], value:[text/html]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Date], value:[Mon, 05 Mar 2012 11:27:36 GMT]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Server], value:[BWS/1.0]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-Length], value:[0]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:936][FUNC:put_superfile]object_len:[9836], part_len:[268435456], thread:[1]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:435][FUNC:generate_url]bucket:[your-bucket-name], object:[/sp1_part_0], method:[PUT] generate_url url:[http://bcs.duapp.com/your-bucket-name/sp1_part_0?sign=MBO:DCb740ccc5511e5e8fedcff06b081203:Mbo9KeeCxwKf%2BKWain4c7FsL9pw%3D]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:970][FUNC:put_superfile]part_0 url:[http://bcs.duapp.com/your-bucket-name/sp1_part_0?sign=MBO:DCb740ccc5511e5e8fedcff06b081203:Mbo9KeeCxwKf%2BKWain4c7FsL9pw%3D], part_len:[9836]
+
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:461][FUNC:get_key_value_from_response_header]raw response header:[HTTP/1.1 100 Continue
+Date: Mon, 05 Mar 2012 11:27:36 GMT
+Server: BaiduBS
+
+HTTP/1.1 200 OK
+x-bs-version: 45529c4b76c17b43b18924b3850a05e9
+ETag: 6c1af6965617355cc2cc2b6791eb1740
+Content-MD5: 6c1af6965617355cc2cc2b6791eb1740
+x-bs-request-id: dGMtYmFlLXdhbmJjc3VpOC50Yy5iYWlkdS5jb206ODA4MDoxNTYwNTg2NDExAA==
+Content-Length: 0
+Date: Mon, 05 Mar 2012 11:27:36 GMT
+Server: BaiduBS
+
+]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Date], value:[Mon, 05 Mar 2012 11:27:36 GMT]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Server], value:[BaiduBS]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[x-bs-version], value:[45529c4b76c17b43b18924b3850a05e9]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[ETag], value:[6c1af6965617355cc2cc2b6791eb1740]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-MD5], value:[6c1af6965617355cc2cc2b6791eb1740]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[x-bs-request-id], value:[dGMtYmFlLXdhbmJjc3VpOC50Yy5iYWlkdS5jb206ODA4MDoxNTYwNTg2NDExAA==]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-Length], value:[0]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Date], value:[Mon, 05 Mar 2012 11:27:36 GMT]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Server], value:[BaiduBS]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:1026][FUNC:put_superfile]part_0 res.status_code:[200], res.body:[]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:747][FUNC:generate_json_object_list]part_0 bucket:[your-bucket-name], object:[/sp1_part_0]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:435][FUNC:generate_url]bucket:[your-bucket-name], object:[/sp1_part_0], method:[HEAD] generate_url url:[http://bcs.duapp.com/your-bucket-name/sp1_part_0?sign=MBO:DCb740ccc5511e5e8fedcff06b081203:SPUdRpQVOSc7j6clT%2BV8jIcooTE%3D]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:461][FUNC:get_key_value_from_response_header]raw response header:[HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Last-Modified: Mon, 05 Mar 2012 11:27:36 GMT
+Expires: Thu, 08 Mar 2012 11:27:36 GMT
+ETag: 6c1af6965617355cc2cc2b6791eb1740
+Content-Type: application/octet-stream
+x-bs-request-id: dGMtYmFlLXdhbmJjc3VpNS50Yy5iYWlkdS5jb206ODA4MDoxODc5MzQyMDg1AA==
+x-bs-meta-crc32: 2987950088
+Content-MD5: 6c1af6965617355cc2cc2b6791eb1740
+Content-Length: 9836
+Connection: close
+Date: Mon, 05 Mar 2012 11:27:36 GMT
+Server: BaiduBS
+
+]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Accept-Ranges], value:[bytes]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Last-Modified], value:[Mon, 05 Mar 2012 11:27:36 GMT]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Expires], value:[Thu, 08 Mar 2012 11:27:36 GMT]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[ETag], value:[6c1af6965617355cc2cc2b6791eb1740]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-Type], value:[application/octet-stream]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[x-bs-request-id], value:[dGMtYmFlLXdhbmJjc3VpNS50Yy5iYWlkdS5jb206ODA4MDoxODc5MzQyMDg1AA==]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[x-bs-meta-crc32], value:[2987950088]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-MD5], value:[6c1af6965617355cc2cc2b6791eb1740]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-Length], value:[9836]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Connection], value:[close]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Date], value:[Mon, 05 Mar 2012 11:27:36 GMT]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Server], value:[BaiduBS]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:769][FUNC:generate_json_object_list]json_object_list:[{"object_list":{"part_0":{"url":"bs://your-bucket-name/sp1_part_0","etag":"6c1af6965617355cc2cc2b6791eb1740"}}}]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:435][FUNC:generate_url]bucket:[your-bucket-name], object:[/sp1], method:[PUT] generate_url url:[http://bcs.duapp.com/your-bucket-name/sp1?sign=MBO:DCb740ccc5511e5e8fedcff06b081203:clcd7S7oBNk%2B9T3jXpGRqmj47wg%3D&superfile=1]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:461][FUNC:get_key_value_from_response_header]raw response header:[HTTP/1.1 100 Continue
+Date: Mon, 05 Mar 2012 11:27:36 GMT
+Server: BaiduBS
+
+HTTP/1.1 200 OK
+x-bs-version: b3317ea80f2880e34fc71c6f6be66bc6
+ETag: b3317ea80f2880e34fc71c6f6be66bc6
+x-bs-request-id: dGMtYmFlLXdhbmJjc3VpOS50Yy5iYWlkdS5jb206ODA4MDoxNjI3NjA3NTY5AA==
+Content-Length: 0
+Date: Mon, 05 Mar 2012 11:27:36 GMT
+Server: BaiduBS
+
+]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Date], value:[Mon, 05 Mar 2012 11:27:36 GMT]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Server], value:[BaiduBS]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[x-bs-version], value:[b3317ea80f2880e34fc71c6f6be66bc6]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[ETag], value:[b3317ea80f2880e34fc71c6f6be66bc6]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[x-bs-request-id], value:[dGMtYmFlLXdhbmJjc3VpOS50Yy5iYWlkdS5jb206ODA4MDoxNjI3NjA3NTY5AA==]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-Length], value:[0]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Date], value:[Mon, 05 Mar 2012 11:27:36 GMT]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Server], value:[BaiduBS]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:435][FUNC:generate_url]bucket:[your-bucket-name], object:[/sp1_part_0], method:[DELETE] generate_url url:[http://bcs.duapp.com/your-bucket-name/sp1_part_0?sign=MBO:DCb740ccc5511e5e8fedcff06b081203:vpEubhW%2F%2B3UJXJH0kkYVR8p3Nko%3D]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:461][FUNC:get_key_value_from_response_header]raw response header:[HTTP/1.1 200 OK
+Content-Length: 0
+Date: Mon, 05 Mar 2012 11:27:36 GMT
+Server: BaiduBS
+
+]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-Length], value:[0]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Date], value:[Mon, 05 Mar 2012 11:27:36 GMT]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Server], value:[BaiduBS]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:1058][FUNC:put_superfile]delete part_0 bucket:[your-bucket-name], object:[sp1_part_0], res.status_code:[200], res.body:[]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:747][FUNC:generate_json_object_list]part_0 bucket:[your-bucket-name], object:[/put_object_sample1]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:435][FUNC:generate_url]bucket:[your-bucket-name], object:[/put_object_sample1], method:[HEAD] generate_url url:[http://bcs.duapp.com/your-bucket-name/put_object_sample1?sign=MBO:DCb740ccc5511e5e8fedcff06b081203:LpV1y9A5jWE1uHeUWv9Q4ehtzmw%3D]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:461][FUNC:get_key_value_from_response_header]raw response header:[HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Last-Modified: Mon, 05 Mar 2012 11:27:36 GMT
+Expires: Thu, 08 Mar 2012 11:27:36 GMT
+ETag: 212a649c411d9d942f72dc48f98858c9
+Content-Type: application/octet-stream
+x-bs-request-id: dGMtYmFlLXdhbmJjc3VpMS50Yy5iYWlkdS5jb206ODA4MDo5MDY3Njc1MDMA
+x-bs-meta-map: test
+x-bs-meta-crc32: 892057003
+x-bs-meta-debug: copy test
+Content-MD5: 212a649c411d9d942f72dc48f98858c9
+Content-Length: 72
+Connection: close
+Date: Mon, 05 Mar 2012 11:27:36 GMT
+Server: BaiduBS
+
+]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Accept-Ranges], value:[bytes]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Last-Modified], value:[Mon, 05 Mar 2012 11:27:36 GMT]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Expires], value:[Thu, 08 Mar 2012 11:27:36 GMT]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[ETag], value:[212a649c411d9d942f72dc48f98858c9]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-Type], value:[application/octet-stream]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[x-bs-request-id], value:[dGMtYmFlLXdhbmJjc3VpMS50Yy5iYWlkdS5jb206ODA4MDo5MDY3Njc1MDMA]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[x-bs-meta-map], value:[test]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[x-bs-meta-crc32], value:[892057003]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[x-bs-meta-debug], value:[copy test]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-MD5], value:[212a649c411d9d942f72dc48f98858c9]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-Length], value:[72]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Connection], value:[close]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Date], value:[Mon, 05 Mar 2012 11:27:36 GMT]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Server], value:[BaiduBS]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:769][FUNC:generate_json_object_list]json_object_list:[{"object_list":{"part_0":{"url":"bs://your-bucket-name/put_object_sample1","etag":"212a649c411d9d942f72dc48f98858c9"}}}]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:435][FUNC:generate_url]bucket:[your-bucket-name], object:[/merge], method:[PUT] generate_url url:[http://bcs.duapp.com/your-bucket-name/merge?sign=MBO:DCb740ccc5511e5e8fedcff06b081203:5A2FShudmPXPqoVF5r15qLbst6k%3D&superfile=1]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:461][FUNC:get_key_value_from_response_header]raw response header:[HTTP/1.1 100 Continue
+Date: Mon, 05 Mar 2012 11:27:36 GMT
+Server: BaiduBS
+
+HTTP/1.1 200 OK
+x-bs-version: 572792c8194298901efc5e9c5baac04d
+ETag: 572792c8194298901efc5e9c5baac04d
+x-bs-request-id: dGMtYmFlLXdhbmJjc3VpMy50Yy5iYWlkdS5jb206ODA4MDoxMDA3NDA0MDE4AA==
+Content-Length: 0
+Date: Mon, 05 Mar 2012 11:27:36 GMT
+Server: BaiduBS
+
+]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Date], value:[Mon, 05 Mar 2012 11:27:36 GMT]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Server], value:[BaiduBS]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[x-bs-version], value:[572792c8194298901efc5e9c5baac04d]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[ETag], value:[572792c8194298901efc5e9c5baac04d]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[x-bs-request-id], value:[dGMtYmFlLXdhbmJjc3VpMy50Yy5iYWlkdS5jb206ODA4MDoxMDA3NDA0MDE4AA==]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Content-Length], value:[0]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Date], value:[Mon, 05 Mar 2012 11:27:36 GMT]
+[Mon, 05 Mar 2012 18:56:32 GMT] [DEBUG]  [bcs_sdk.cpp:479][FUNC:get_key_value_from_response_header]key:[Server], value:[BaiduBS]
