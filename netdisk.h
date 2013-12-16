@@ -1,5 +1,7 @@
 #ifndef NETDISK_H
 #define NETDISK_H
+#include <fuse.h>
+#include <stdio.h>
 
 class netdisk_proto {
 private:

@@ -12,7 +12,7 @@ main(int argc, char **argv)
 			string("VaiNwPV9tvphCLRvlZ2RvVRkvPHrwaCf"),
 			string("netdisk-fuz"));
 	
-	if ( disk.upload(argv[1],argv[1]) != 0 ) {
+/*	if ( disk.upload(argv[1],argv[1]) != 0 ) {
 		perror("Error Uploading...\n");
 	} else {
 		if ( disk.download(argv[2],argv[1]) != 0 ) {
@@ -22,5 +22,13 @@ main(int argc, char **argv)
 		}
 		printf("Done.\n");
 	}
+	*/
+	if ( disk.download(argv[2],argv[1]) != 0 ) {
+		perror("Error Downloading...\n");
+	} else {
+		printf("Done.\n");
+	}
+
+//	disk.list("netdisk-fuz");
 	return 0;
 }

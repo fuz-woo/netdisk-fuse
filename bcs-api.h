@@ -42,6 +42,15 @@ public:
 
 	int download(const char *file, const char *remote_file);
 	int download(std::string file, std::string remote_file);
+
+	int remove(const char *remote_file);
+	int remove(std::string remote_file);
+
+	std::string list(const char *bkt);
+	std::string list(std::string bkt);
+
+	int dir_upload(const char *dir);
+	int dir_upload(std::string dir);
 };
 
 #endif

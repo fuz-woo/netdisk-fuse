@@ -130,3 +130,54 @@ netdisk_bcs::download(std::string file, std::string remote_file)
 {
 	return this->download(file.c_str(), remote_file.c_str());
 }
+
+int
+netdisk_bcs::remove(const char *remote_file)
+{
+	if ( status() == -1 ) return -1;
+
+	int ret;
+	response resp;
+	ret = get_handler()->delete_object(get_bucket().c_str(), remote_file, resp);
+
+	return ret;
+}
+
+int
+netdisk_bcs::remove(std::string remote_file)
+{
+	return this->remove(remote_file.c_str());
+}
+
+std::string
+netdisk_bcs::list(const char *bkt)
+{
+	if ( status() == -1 ) return string();
+
+	int ret;
+	response resp;
+	ret = get_handler()->list(bkt, resp);
+
+	if ( ret == 0 ) {
+		return resp.body;
+	} else {
+		return string();
+	}
+//	std::cout<<resp.body<<endl;
+}
+
+std::string
+netdisk_bcs::list(std::string bkt)
+{
+	return this->list(bkt.c_str());
+}
+
+int
+netdisk_bcs::dir_upload(const char *dir)
+{}
+
+int
+netdisk_bcs::dir_upload(std::string dir)
+{}
+
+
