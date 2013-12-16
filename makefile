@@ -1,22 +1,21 @@
-CC:=clang
-CPP:=clang
-LINK:=g++
+CPP:=clang++
+LINK:=clang++
 
 BCS_FLAGS:=-lbcs_sdk -lcrypto -lcurl
-
-FLAGS:=$(shell pkg-config fuse --cflags --libs) -DFUSE_USE_VERSION=22 -D_FILE_OFFSET_BITS=64
+CFLAGS:=$(shell pkg-config fuse --cflags) -DFUSE_USE_VERSION=26
+FUSE_FLAGS:=$(shell pkg-config fuse --libs)
 
 all: bcs-api.o netdisk.o main.o
-	$(LINK) $(BCS_FLAGS) $(FLAGS) bcs-api.o netdisk.o main.o -o netdisk
+	$(CPP) $(CFLAGS) $(BCS_FLAGS) $(FUSE_FLAGS) bcs-api.o netdisk.o main.o -o netdisk
 
 main.o: main.cc
-	$(CPP) $(BCS_FLAGS) $(FLAGS) -c main.cc -o main.o
+	$(CPP) -c $(CFLAGS) main.cc -o main.o
 
 netdisk.o: netdisk.h netdisk.cc
-	$(CPP) -c $(FLAGS) netdisk.cc -o netdisk.o
+	$(CPP) -c $(CFLAGS) netdisk.cc -o netdisk.o
 
 bcs-api.o: bcs-api.h bcs-api.cc
-	$(CPP) -c $(BCS_FLAGS) bcs-api.cc -o bcs-api.o
+	$(CPP) -c bcs-api.cc -o bcs-api.o
 
 
 clean:

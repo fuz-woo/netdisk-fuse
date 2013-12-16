@@ -2,6 +2,9 @@ extern "C" {
 	#include <fuse.h>
 }
 #include <iostream>
+#include <stdio.h>
+#include <string.h>
+#include <errno.h>
 using namespace std;
 
 
@@ -20,8 +23,8 @@ netdisk_destroy (void *private_data)
 int
 netdisk_read(const char *path, char *buf, size_t size, off_t offset,struct fuse_file_info *fi)
 {
-	std::cout<<"Reading..."<<endl;
-	return 0;
+	memcpy(buf, "fuz", 3);
+	return 3;
 }
 
 int
@@ -46,20 +49,33 @@ netdisk_opendir(const char *path, struct fuse_file_info *fi)
 }
 
 int
-netdisk_readdir(const char *path, void *buf, fuse_fill_dir_t fill, off_t offset, struct fuse_file_info *fi)
+netdisk_readdir(const char *path, void *buf, fuse_fill_dir_t filler, off_t offset, struct fuse_file_info *fi)
 {
 	std::cout<<"Reading Dir..."<<endl;
+	filler(buf, ".", NULL, 0);
+	filler(buf, "..", NULL, 0);
+	filler(buf, "netdisk", NULL, 0);
+	return 0;
+}
+
+int
+netdisk_getattr(const char *path, struct stat *stbuf)
+{
+	memset(stbuf, 0, sizeof(struct stat));
+	stbuf->st_mode = S_IFDIR | 0x0755;
+	stbuf->st_nlink = 1;
+	
 	return 0;
 }
 
 
 
 extern struct fuse_operations netdisk_opr = {
-	.init = netdisk_init,
-	.destroy = netdisk_destroy,
 	.open = netdisk_open,
 	.read = netdisk_read,
 	.write = netdisk_write,
 	.opendir = netdisk_opendir,
-	.readdir = netdisk_readdir
+	.readdir = netdisk_readdir,
+	.init = netdisk_init,
+	.destroy = netdisk_destroy
 };
